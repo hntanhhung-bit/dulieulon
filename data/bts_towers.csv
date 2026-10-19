@@ -1,0 +1,21 @@
+tower_id,tower_name,province,district,latitude,longitude,install_date
+TOWER_001,BTS Cầu Giấy - Station 01,Hà Nội,Cầu Giấy,21.03111,105.76769,2021-02-15
+TOWER_002,BTS Hoàn Kiếm - Station 02,Hà Nội,Hoàn Kiếm,21.04697,105.86497,2021-04-01
+TOWER_003,BTS Đống Đa - Station 03,Hà Nội,Đống Đa,21.03314,105.83706,2021-05-16
+TOWER_004,BTS Hai Bà Trưng - Station 04,Hà Nội,Hai Bà Trưng,21.00069,105.84029,2021-06-30
+TOWER_005,BTS Hải Châu - Station 05,Đà Nẵng,Hải Châu,16.04884,108.22908,2021-08-14
+TOWER_006,BTS Sơn Trà - Station 06,Đà Nẵng,Sơn Trà,16.06354,108.25708,2021-09-28
+TOWER_007,BTS Quận 1 - Station 07,Hồ Chí Minh,Quận 1,10.78254,106.68502,2021-11-12
+TOWER_008,BTS Quận 3 - Station 08,Hồ Chí Minh,Quận 3,10.7989,106.68286,2021-12-27
+TOWER_009,BTS Bình Thạnh - Station 09,Hồ Chí Minh,Bình Thạnh,10.8131,106.70392,2022-02-10
+TOWER_010,BTS Tân Bình - Station 10,Hồ Chí Minh,Tân Bình,10.8054,106.67479,2022-03-27
+TOWER_011,BTS Cầu Giấy - Station 11,Hà Nội,Cầu Giấy,21.01575,105.78282,2022-05-11
+TOWER_012,BTS Hoàn Kiếm - Station 12,Hà Nội,Hoàn Kiếm,21.02971,105.86681,2022-06-25
+TOWER_013,BTS Đống Đa - Station 13,Hà Nội,Đống Đa,21.02868,105.82035,2022-08-09
+TOWER_014,BTS Hai Bà Trưng - Station 14,Hà Nội,Hai Bà Trưng,20.99613,105.84906,2022-09-23
+TOWER_015,BTS Hải Châu - Station 15,Đà Nẵng,Hải Châu,16.06933,108.21234,2022-11-07
+TOWER_016,BTS Sơn Trà - Station 16,Đà Nẵng,Sơn Trà,16.06784,108.23127,2022-12-22
+TOWER_017,BTS Quận 1 - Station 17,Hồ Chí Minh,Quận 1,10.76487,106.71792,2023-02-05
+TOWER_018,BTS Quận 3 - Station 18,Hồ Chí Minh,Quận 3,10.78307,106.68243,2023-03-22
+TOWER_019,BTS Bình Thạnh - Station 19,Hồ Chí Minh,Bình Thạnh,10.81936,106.69379,2023-05-06
+TOWER_020,BTS Tân Bình - Station 20,Hồ Chí Minh,Tân Bình,10.79566,106.66271,2023-06-20

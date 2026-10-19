@@ -1,0 +1,1056 @@
+=== P000 | style=Normal | runs=1 ===
+TRƯỜNG ĐẠI HỌC TÀI NGUYÊN VÀ MÔI TRƯỜNG HÀ NỘI
+
+=== P001 | style=Normal | runs=1 ===
+KHOA CÔNG NGHỆ THÔNG TIN
+
+=== P002 | style=Normal | runs=0 ===
+
+
+=== P003 | style=Normal | runs=0 ===
+
+
+=== P004 | style=Normal | runs=1 ===
+BÁO CÁO BÀI TẬP LỚN
+
+=== P005 | style=Normal | runs=1 ===
+HỌC PHẦN: XỬ LÝ DỮ LIỆU LỚN
+
+=== P006 | style=Normal | runs=1 ===
+Mã học phần: CTKU122
+
+=== P007 | style=Normal | runs=1 ===
+ĐỀ TÀI
+
+=== P008 | style=Normal | runs=1 ===
+PHÂN TÍCH CHẤT LƯỢNG MẠNG VIỄN THÔNG
+
+=== P009 | style=Normal | runs=1 ===
+Lớp học phần: ĐH13C2 - Xử lý Dữ liệu lớn
+
+=== P010 | style=Normal | runs=8 ===
+Giảng viên giảng dạy: Trần Thị Hương
+
+=== P011 | style=Normal | runs=0 ===
+
+
+=== P012 | style=Normal | runs=0 ===
+
+
+=== P013 | style=Normal | runs=0 ===
+
+
+=== P014 | style=Normal | runs=5 ===
+Hà Nội, năm 2026
+
+=== P015 | style=Heading 1 | runs=0 ===
+
+
+=== P016 | style=Normal | runs=1 ===
+
+
+=== P017 | style=Heading 1 | runs=1 ===
+TỔNG HỢP ĐIỂM BÀI TẬP LỚN
+
+=== P018 | style=Normal | runs=0 ===
+
+
+=== P019 | style=Normal | runs=0 ===
+
+
+=== P020 | style=Heading 1 | runs=0 ===
+
+
+=== P021 | style=Normal | runs=1 ===
+
+
+=== P022 | style=Heading 1 | runs=1 ===
+PHÂN CÔNG NHIỆM VỤ
+
+=== P023 | style=Normal | runs=0 ===
+
+
+=== P024 | style=Normal | runs=1 ===
+
+
+=== P025 | style=Normal | runs=1 ===
+MỤC LỤC
+
+=== P026 | style=Normal | runs=3 ===
+LỜI NÓI ĐẦU .......................................................................... 5
+
+=== P027 | style=Normal | runs=1 ===
+CHƯƠNG 1. TỔNG QUAN VÀ BÀI TOÁN XỬ LÝ DỮ LIỆU LỚN
+
+=== P028 | style=Normal | runs=3 ===
+.................................... 7
+
+=== P029 | style=Normal | runs=3 ===
+  1.1. Bối cảnh và lý do chọn đề tài ................................................. 7
+
+=== P030 | style=Normal | runs=3 ===
+  1.2. Phân tích 5 đặc trưng Big Data (5V) trong bài toán viễn thông ................. 8
+
+=== P031 | style=Normal | runs=3 ===
+  1.3. Khảo sát các công nghệ Big Data áp dụng trong đề tài .......................... 10
+
+=== P032 | style=Normal | runs=3 ===
+  1.4. Thiết kế kiến trúc tổng thể hệ thống (Kiến trúc Lambda) ....................... 12
+
+=== P033 | style=Normal | runs=3 ===
+CHƯƠNG 2. THIẾT KẾ DỮ LIỆU VÀ TIỀN XỬ LÝ ............................................. 14
+
+=== P034 | style=Normal | runs=3 ===
+  2.1. Nguồn dữ liệu và phân loại dữ liệu viễn thông ................................. 14
+
+=== P035 | style=Normal | runs=3 ===
+  2.2. Phân định ranh giới xử lý: Gần thời gian thực vs Phân tích tĩnh ............... 15
+
+=== P036 | style=Normal | runs=3 ===
+  2.3. Khảo sát cấu trúc các tập dữ liệu thực nghiệm ................................. 16
+
+=== P037 | style=Normal | runs=3 ===
+  2.4. Đánh giá chất lượng dữ liệu và các vấn đề dị thường ........................... 18
+
+=== P038 | style=Normal | runs=3 ===
+  2.5. Quy trình làm sạch dữ liệu và kỹ thuật tạo đặc trưng .......................... 19
+
+=== P039 | style=Normal | runs=3 ===
+CHƯƠNG 3. XÂY DỰNG HỆ THỐNG XỬ LÝ DỮ LIỆU LỚN ........................................ 21
+
+=== P040 | style=Normal | runs=3 ===
+  3.1. Thiết lập môi trường triển khai thực nghiệm ................................... 21
+
+=== P041 | style=Normal | runs=3 ===
+  3.2. Tổ chức lưu trữ phân tán và cơ chế dung lỗi trên HDFS ......................... 22
+
+=== P042 | style=Normal | runs=3 ===
+  3.3. Thiết kế pipeline luồng dữ liệu đầu cuối (End-to-End) ......................... 25
+
+=== P043 | style=Normal | runs=3 ===
+  3.4. Cài đặt pipeline phân tích bằng Apache Spark & Spark SQL ...................... 27
+
+=== P044 | style=Normal | runs=3 ===
+  3.5. Các thành phần và thuật toán chuyên biệt trong đề tài ......................... 29
+
+=== P045 | style=Normal | runs=3 ===
+    3.5.1. Thuật toán MapReduce tối ưu tính KPI viễn thông ........................... 29
+
+=== P046 | style=Normal | runs=3 ===
+    3.5.2. Kịch bản ETL và phân cụm trạm lỗi với Apache Pig Latin .................... 31
+
+=== P047 | style=Normal | runs=3 ===
+    3.5.3. Thiết kế bảng Apache HBase phục vụ truy cập ngẫu nhiên .................... 33
+
+=== P048 | style=Normal | runs=3 ===
+    3.5.4. Mô phỏng phân tích nghiệp vụ tương tác với BigSheets ...................... 35
+
+=== P049 | style=Normal | runs=3 ===
+    3.5.5. Mô hình Hồi quy Logistic dự báo khiếu nại bằng R & SQLite ................. 37
+
+=== P050 | style=Normal | runs=3 ===
+  3.6. Cơ chế lưu trữ và xuất kết quả đa tầng ........................................ 39
+
+=== P051 | style=Normal | runs=3 ===
+CHƯƠNG 4. THỰC NGHIỆM VÀ ĐÁNH GIÁ KẾT QUẢ ............................................ 40
+
+=== P052 | style=Normal | runs=3 ===
+  4.1. Kịch bản và dữ liệu thực nghiệm ............................................... 40
+
+=== P053 | style=Normal | runs=3 ===
+  4.2. Kết quả phân tích chất lượng mạng viễn thông .................................. 41
+
+=== P054 | style=Normal | runs=3 ===
+  4.3. Đánh giá hiệu năng và so sánh công nghệ ....................................... 46
+
+=== P055 | style=Normal | runs=3 ===
+  4.4. Thảo luận kết quả và 5 Khuyến nghị hành động tối ưu mạng NOC .................. 48
+
+=== P056 | style=Normal | runs=3 ===
+CHƯƠNG 5. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ............................................... 52
+
+=== P057 | style=Normal | runs=3 ===
+  5.1. Kết luận các kết quả đạt được ................................................. 52
+
+=== P058 | style=Normal | runs=3 ===
+  5.2. Hạn chế của đề tài ............................................................ 53
+
+=== P059 | style=Normal | runs=3 ===
+  5.3. Hướng nghiên cứu và phát triển tiếp theo ...................................... 53
+
+=== P060 | style=Normal | runs=3 ===
+TÀI LIỆU THAM KHẢO ................................................................... 55
+
+=== P061 | style=Normal | runs=3 ===
+PHỤ LỤC .............................................................................. 56
+
+=== P062 | style=Normal | runs=3 ===
+  Phụ lục A: Hướng dẫn cài đặt và vận hành hệ thống .................................. 56
+
+=== P063 | style=Normal | runs=3 ===
+  Phụ lục B: Trích đoạn mã nguồn cốt lõi ............................................. 58
+
+=== P064 | style=Normal | runs=3 ===
+  Phụ lục C: Nhật ký thực thi và ảnh chụp màn hình kiểm chứng ........................ 62
+
+=== P065 | style=Normal | runs=1 ===
+
+
+=== P066 | style=Normal | runs=1 ===
+DANH MỤC HÌNH VẼ
+
+=== P067 | style=Normal | runs=4 ===
+Hình 1.1: Sơ đồ kiến trúc tổng thể hệ thống (Lambda Architecture) ................. 13
+
+=== P068 | style=Normal | runs=4 ===
+Hình 2.1: Sơ đồ thực thể quan hệ dữ liệu viễn thông (ERD Schema) .................. 17
+
+=== P069 | style=Normal | runs=4 ===
+Hình 3.1: Pipeline luồng dữ liệu đầu cuối từ Ingestion đến Analytics .............. 26
+
+=== P070 | style=Normal | runs=4 ===
+Hình 3.2: Sơ đồ luồng thuật toán MapReduce với Composite Key và Custom Partitioner ... 30
+
+=== P071 | style=Normal | runs=4 ===
+Hình 3.3: Giao diện mô phỏng Dashboard phân tích nghiệp vụ BigSheets .............. 36
+
+=== P072 | style=Normal | runs=4 ===
+Hình 4.1: Biểu đồ hộp phân bố độ trễ theo thế hệ công nghệ mạng (3G, 4G, 5G) ...... 42
+
+=== P073 | style=Normal | runs=4 ===
+Hình 4.2: Biểu đồ tương quan giữa Tỷ lệ mất gói (%) và Tỷ lệ rớt cuộc gọi (%) ..... 43
+
+=== P074 | style=Normal | runs=4 ===
+Hình 4.3: Biểu đồ tỷ lệ rớt cuộc gọi theo Tỉnh thành và Công nghệ mạng ............ 44
+
+=== P075 | style=Normal | runs=4 ===
+Hình 4.4: Biểu đồ bong bóng đa chiều tương quan Độ trễ và Mất gói theo Trạm BTS ... 45
+
+=== P076 | style=Normal | runs=4 ===
+Hình 4.5: Biểu đồ xếp hạng cảnh báo Top 10 trạm BTS chất lượng kém nhất cần bảo trì ... 45
+
+=== P077 | style=Normal | runs=4 ===
+Hình 4.6: Ảnh chụp màn hình môi trường thực thi và phân tích mô hình học máy trên RStudio ... 46
+
+=== P078 | style=Normal | runs=1 ===
+DANH MỤC BẢNG BIỂU
+
+=== P079 | style=Normal | runs=4 ===
+Bảng 2.1: Khảo sát cấu trúc 4 tập dữ liệu viễn thông thực nghiệm .................. 16
+
+=== P080 | style=Normal | runs=4 ===
+Bảng 2.2: Ma trận rủi ro và phương án xử lý chất lượng dữ liệu đo kiểm ............ 18
+
+=== P081 | style=Normal | runs=4 ===
+Bảng 3.1: Thiết kế bảng Apache HBase lưu trữ chỉ số KPI viễn thông độ trễ thấp .... 34
+
+=== P082 | style=Normal | runs=4 ===
+Bảng 4.1: Bảng tổng hợp KPI Top 10 trạm phát sóng suy giảm chất lượng nghiêm trọng ... 41
+
+=== P083 | style=Normal | runs=4 ===
+Bảng 4.2: Bảng đối chiếu định lượng hiệu năng và tài nguyên giữa Pig, MapReduce, Spark và R ... 47
+
+=== P084 | style=Normal | runs=4 ===
+Bảng 4.3: Ma trận 5 khuyến nghị hành động kỹ thuật tối ưu hóa mạng viễn thông ..... 49
+
+=== P085 | style=Normal | runs=1 ===
+DANH MỤC TỪ VIẾT TẮT
+
+=== P086 | style=Normal | runs=2 ===
+BTS          : Base Transceiver Station - Trạm thu phát sóng di động mặt đất
+
+=== P087 | style=Normal | runs=2 ===
+CDR / xDR    : Call Detail Record / Data Detail Record - Bản ghi chi tiết cuộc gọi và dữ liệu
+
+=== P088 | style=Normal | runs=2 ===
+KPI          : Key Performance Indicator - Chỉ số đo lường hiệu quả hoạt động cốt lõi
+
+=== P089 | style=Normal | runs=2 ===
+QoS / QoE    : Quality of Service / Quality of Experience - Chất lượng dịch vụ và trải nghiệm người dùng
+
+=== P090 | style=Normal | runs=2 ===
+SLA          : Service Level Agreement - Cam kết chất lượng dịch vụ
+
+=== P091 | style=Normal | runs=2 ===
+HDFS         : Hadoop Distributed File System - Hệ thống tệp phân tán Hadoop
+
+=== P092 | style=Normal | runs=2 ===
+YARN         : Yet Another Resource Negotiator - Hệ thống quản lý tài nguyên phân tán Hadoop
+
+=== P093 | style=Normal | runs=2 ===
+RDD          : Resilient Distributed Dataset - Tập dữ liệu phân tán có khả năng phục hồi
+
+=== P094 | style=Normal | runs=2 ===
+NoSQL        : Not Only SQL - Cơ sở dữ liệu phi quan hệ phân tán
+
+=== P095 | style=Normal | runs=2 ===
+SON          : Self-Organizing Networks - Mạng tự tối ưu hóa vô tuyến
+
+=== P096 | style=Normal | runs=2 ===
+NOC / SOC    : Network Operations Center / Service Operations Center - Trung tâm điều hành mạng và dịch vụ
+
+=== P097 | style=Normal | runs=2 ===
+MEC          : Multi-access Edge Computing - Tính toán biên đa truy cập
+
+=== P098 | style=Normal | runs=2 ===
+AQM / WRED   : Active Queue Management / Weighted Random Early Detection - Kiểm soát hàng đợi chủ động
+
+=== P099 | style=Normal | runs=1 ===
+
+
+=== P100 | style=Normal | runs=1 ===
+LỜI NÓI ĐẦU
+
+=== P101 | style=Normal | runs=1 ===
+Trong kỷ nguyên bùng nổ của cuộc Cách mạng Công nghiệp lần thứ tư, viễn thông di động đóng vai trò là mạch máu thông tin huyết mạch của toàn bộ nền kinh tế số. Sự phổ cập vũ bão của mạng di động thế hệ thứ tư (4G LTE), thế hệ thứ năm (5G NR) cùng với sự gia tăng đột biến của các thiết bị Internet vạn vật (IoT) và các dịch vụ truyền tải trực tuyến độ phân giải cao đã tạo ra áp lực lưu lượng chưa từng có đối với cơ sở hạ tầng mạng của các nhà khai thác viễn thông.
+
+=== P102 | style=Normal | runs=1 ===
+Một mạng viễn thông quy mô quốc gia thông thường sở hữu hàng chục nghìn trạm phát sóng di động (Base Transceiver Station - BTS). Mỗi trạm BTS liên tục ghi nhận và phát sinh các dòng dữ liệu đo kiểm telemetry, bản ghi chi tiết cuộc gọi (Call Detail Record - CDR), bản ghi phiên dữ liệu (Data Detail Record - xDR) và nhật ký hoạt động hệ điều hành với tần suất hàng trăm nghìn sự kiện mỗi giây. Khối lượng dữ liệu này nhanh chóng tích lũy lên tới hàng chục Terabyte mỗi ngày, mang đầy đủ các đặc trưng kinh điển của Dữ liệu lớn (Big Data): Khối lượng khổng lồ (Volume), Tốc độ sinh và truyền tức thời (Velocity), Đa dạng định dạng (Variety), Độ nhiễu và bất định cao (Veracity), cùng tiềm năng khai thác Giá trị to lớn (Value).
+
+=== P103 | style=Normal | runs=1 ===
+Trước áp lực cạnh tranh khốc liệt trên thị trường, chất lượng dịch vụ (Quality of Service - QoS) và chất lượng trải nghiệm của khách hàng (Quality of Experience - QoE) đã trở thành yếu tố sống còn quyết định sự thành bại của doanh nghiệp viễn thông. Các hệ thống cơ sở dữ liệu quan hệ truyền thống (RDBMS) hoàn toàn bất lực và sụp đổ trước khối lượng dữ liệu khổng lồ này, không thể cung cấp khả năng phân tích đa chiều hoặc cảnh báo sự cố tức thời.
+
+=== P104 | style=Normal | runs=2 ===
+Mục tiêu cốt lõi của đề tài: Xuất phát từ thực tiễn cấp bách đó, nhóm nghiên cứu đã lựa chọn đề tài: "Xây dựng hệ thống phân tích và giám sát chất lượng mạng viễn thông (Telecom Quality of Service Analytics) trên nền tảng Hadoop, Spark và R". Đề tài hướng tới việc giải quyết triệt để 3 mục tiêu kỹ thuật cốt lõi:
+
+=== P105 | style=List Bullet | runs=2 ===
+1. Giảm thiểu độ trễ mạng (Latency): Phát hiện chính xác các trạm phát sóng bị nghẽn đường truyền truyền dẫn Backhaul và quá tải hàng đợi vô tuyến, hỗ trợ định tuyến tối ưu lưu lượng.
+
+=== P106 | style=List Bullet | runs=2 ===
+2. Giảm tỷ lệ mất gói (Packet Loss): Cô lập các cell vô tuyến bị can nhiễu đồng kênh, lỗi tham số công suất phát hoặc tràn bộ đệm thiết bị định tuyến.
+
+=== P107 | style=List Bullet | runs=2 ===
+3. Giảm tỷ lệ rớt cuộc gọi (Call Drop Rate - CDR): Tối ưu hóa vùng phủ sóng, hỗ trợ tinh chỉnh tham số biên chuyển giao (Handover Margin) và góc ngửa anten, kéo giảm tỷ lệ rớt cuộc gọi về dưới ngưỡng cam kết chất lượng dịch vụ SLA (2.0%).
+
+=== P108 | style=Normal | runs=1 ===
+Để đạt được các mục tiêu trên, đề tài đã thiết kế và triển khai một hệ sinh thái Big Data tích hợp hoàn chỉnh theo kiến trúc Lambda hiện đại, bao gồm: Apache Flume (thu thập luồng log tự động), Hadoop HDFS (kho lưu trữ Data Lake dung lỗi), Apache Spark & Spark SQL (xử lý dữ liệu phân tán tốc độ cao trong bộ nhớ), Hadoop MapReduce Java (thuật toán tối ưu hóa với Composite Key và Custom Partitioner), Apache Pig Latin (kịch bản ETL và phân cụm trạm lỗi), Apache HBase (cơ sở dữ liệu NoSQL truy cập ngẫu nhiên độ trễ thấp < 10ms), BigSheets (mô phỏng bảng tính phân tích nghiệp vụ tương tác No-Code) và Ngôn ngữ R kết hợp SQLite (mô hình học máy Logistic Regression dự báo nguy cơ phát sinh khiếu nại khách hàng).
+
+=== P109 | style=Normal | runs=2 ===
+Cấu trúc báo cáo: Bố cục của báo cáo Bài tập lớn được tổ chức khoa học thành 5 chương chính như sau:
+
+=== P110 | style=List Bullet | runs=2 ===
+Chương 1 - Tổng quan và bài toán xử lý dữ liệu lớn: Trình bày bối cảnh thực tiễn, phân tích 5 đặc trưng Big Data (5V), khảo sát các công nghệ áp dụng và thiết kế kiến trúc hệ thống tổng thể theo mô hình Lambda Architecture.
+
+=== P111 | style=List Bullet | runs=2 ===
+Chương 2 - Thiết kế dữ liệu và tiền xử lý: Phân loại dữ liệu viễn thông, phân định ranh giới xử lý thời gian thực vs xử lý lô, khảo sát cấu trúc 4 tập dữ liệu thực nghiệm, đánh giá ma trận rủi ro chất lượng dữ liệu và quy trình làm sạch, kỹ thuật tạo đặc trưng.
+
+=== P112 | style=List Bullet | runs=2 ===
+Chương 3 - Xây dựng hệ thống xử lý dữ liệu lớn: Mô tả chi tiết môi trường thực nghiệm, thiết kế lưu trữ HDFS, tính toán dung lượng sao chép RF=3, xây dựng pipeline Flume, cài đặt Spark DataFrame, thuật toán MapReduce tối ưu, kịch bản Pig Latin, thiết kế HBase NoSQL, quy trình BigSheets và mô hình Hồi quy Logistic bằng R.
+
+=== P113 | style=List Bullet | runs=2 ===
+Chương 4 - Thực nghiệm và đánh giá kết quả: Công bố và thảo luận kết quả thực nghiệm từ 12,000 phiên đo kiểm, phân tích các biểu đồ chuyên sâu (Hình 4.1 đến Hình 4.6), đối chiếu định lượng hiệu năng giữa 4 công nghệ (Bảng 4.2) và đề xuất 5 khuyến nghị hành động chiến lược cho Trung tâm điều hành mạng NOC.
+
+=== P114 | style=List Bullet | runs=2 ===
+Chương 5 - Kết luận và hướng phát triển: Tổng kết các kết quả đạt được, chỉ ra các hạn chế tồn đọng và định hướng mở rộng nghiên cứu trong tương lai (Streaming với Kafka & Flink, ứng dụng AIOps).
+
+=== P115 | style=Normal | runs=1 ===
+
+
+=== P116 | style=Normal | runs=1 ===
+CHƯƠNG 1. TỔNG QUAN VÀ BÀI TOÁN XỬ LÝ DỮ LIỆU LỚN
+
+=== P117 | style=Normal | runs=1 ===
+1.1. Bối cảnh và lý do chọn đề tài
+
+=== P118 | style=Normal | runs=1 ===
+Trong thời đại số hóa toàn diện, ngành công nghiệp viễn thông đang đóng vai trò là hạ tầng kết nối nền tảng cho sự phát triển của xã hội số và kinh tế số. Sự chuyển dịch mạnh mẽ từ các dịch vụ thoại/SMS truyền thống sang các dịch vụ dữ liệu băng rộng tốc độ cao (Data Services) như video streaming độ phân giải cao 4K/8K, điện toán đám mây, hội nghị truyền hình trực tuyến, game thực tế ảo và xe tự hành đã tạo nên một làn sóng bùng nổ lưu lượng truy cập trên các mạng vô tuyến di động.
+
+=== P119 | style=Normal | runs=1 ===
+Một doanh nghiệp viễn thông tiêu biểu tại Việt Nam quản lý từ 30,000 đến hơn 60,000 trạm BTS phân bố trải dài trên khắp 63 tỉnh thành cả nước. Mỗi trạm phát sóng bao gồm từ 3 đến 6 cell vô tuyến phủ sóng ở các dải tần số khác nhau (900 MHz, 1800 MHz, 2100 MHz, 2600 MHz) phục vụ đồng thời hàng triệu thuê bao di động. Tại mỗi cell, các cảm biến phần cứng và phần mềm nhúng liên tục đo kiểm và ghi nhận hàng trăm tham số chất lượng dịch vụ (Quality of Service - QoS) theo chu kỳ từng giây.
+
+=== P120 | style=Normal | runs=1 ===
+Thách thức lớn nhất mà các kỹ sư vận hành mạng tại Trung tâm Điều hành Mạng (Network Operations Center - NOC) đang phải đối mặt bao gồm:
+
+=== P121 | style=List Bullet | runs=1 ===
+Khối lượng dữ liệu khổng lồ sinh ra vượt quá năng lực xử lý của các giải pháp lưu trữ RDBMS truyền thống, dẫn đến việc dữ liệu bị xóa bỏ hoặc nén mù mờ mà không kịp trích xuất giá trị thông tin.
+
+=== P122 | style=List Bullet | runs=1 ===
+Hiện tượng nghẽn mạng cục bộ và suy giảm chất lượng dịch vụ diễn ra âm thầm, chỉ được phát hiện khi khách hàng đã gặp sự cố rớt cuộc gọi nhiều lần và gọi điện phàn nàn lên tổng đài Chăm sóc khách hàng (CSKH), gây tổn hại nghiêm trọng đến uy tín thương hiệu.
+
+=== P123 | style=List Bullet | runs=1 ===
+Chi phí đầu tư nâng cấp hạ tầng (CAPEX) rất lớn nhưng thiếu căn cứ định lượng chính xác: Nhà mạng không thể biết rõ trạm BTS bị suy giảm chất lượng là do thiếu tần số vô tuyến, do nghẽn đường truyền cáp quang Backhaul hay do cấu hình sai góc ngửa anten vô tuyến.
+
+=== P124 | style=Normal | runs=1 ===
+Do đó, việc nghiên cứu và xây dựng một hệ thống phân tích, giám sát chất lượng mạng tự động trên nền tảng các công nghệ Xử lý Dữ liệu lớn (Big Data Technologies) là một yêu cầu cấp thiết, có giá trị ứng dụng thực tiễn cao đối với các doanh nghiệp viễn thông hiện nay.
+
+=== P125 | style=Normal | runs=1 ===
+1.2. Phân tích 5 đặc trưng Big Data (5V) trong bài toán viễn thông
+
+=== P126 | style=Normal | runs=2 ===
+Bài toán phân tích dữ liệu mạng viễn thông thể hiện đầy đủ và sống động 5 đặc trưng kinh điển của dữ liệu lớn (5V Model):
+
+=== P127 | style=List Bullet | runs=2 ===
+1. Volume (Khối lượng dữ liệu khổng lồ): Volume phản ánh quy mô dữ liệu khổng lồ. Với một mạng lưới quản lý khoảng 50,000 trạm BTS, mỗi trạm có trung bình 4 cell vô tuyến đo kiểm liên tục theo chu kỳ 5 giây/lần, toàn mạng sinh ra xấp xỉ 3.5 tỷ sự kiện đo kiểm mỗi ngày. Kèm theo đó là hàng trăm triệu bản ghi chi tiết cuộc gọi (CDR) và phiên truy cập Internet (xDR). Khối lượng dữ liệu thô sinh ra dao động từ 10 đến 25 Terabyte mỗi ngày, tích lũy qua các năm lên tới quy mô hàng chục Petabyte.
+
+=== P128 | style=List Bullet | runs=2 ===
+2. Velocity (Tốc độ sinh và truyền dữ liệu tức thời): Velocity phản ánh tốc độ sinh ra, truyền tải và yêu cầu xử lý dữ liệu cực cao. Dữ liệu từ các trạm BTS được truyền liên tục về máy chủ trung tâm qua các luồng stream thời gian thực với thông lượng vượt mức 500,000 sự kiện/giây vào các khung giờ cao điểm (19h00 - 22h00). Hệ thống giám sát NOC đòi hỏi khả năng tiếp nhận, xử lý và kích hoạt cảnh báo trạm mất sóng hoặc rớt cuộc gọi đột biến trong vòng dưới 1 giây để các kỹ sư kịp thời can thiệp.
+
+=== P129 | style=List Bullet | runs=2 ===
+3. Variety (Đa dạng về chủng loại và định dạng dữ liệu): Variety thể hiện ở sự đa dạng phức tạp về nguồn gốc và định dạng dữ liệu. Hệ sinh thái viễn thông là sự pha trộn của nhiều công nghệ mạng (2G/3G kế thừa, 4G LTE băng rộng, 5G độ trễ cực thấp) đến từ nhiều nhà cung cấp phần cứng khác nhau (Ericsson, Huawei, Nokia, ZTE). Định dạng dữ liệu bao gồm: dữ liệu có cấu trúc (bảng danh mục trạm BTS, danh mục cell, tọa độ GPS), dữ liệu bán cấu trúc (file nhật ký Syslog chuẩn RFC-5424, file cấu hình tham số vô tuyến định dạng XML/JSON), và dữ liệu luồng phi cấu trúc (luồng gói tin NetFlow/IPFIX, telemetry đo kiểm lớp vật lý).
+
+=== P130 | style=List Bullet | runs=2 ===
+4. Veracity (Tính xác thực và độ nhiễu của dữ liệu): Veracity thể hiện tính xác thực, độ tin cậy và mức độ nhiễu của dữ liệu. Do tín hiệu vô tuyến truyền lan trong môi trường không gian tự do chịu ảnh hưởng nặng nề bởi thời tiết mưa bão, che chắn địa hình đô thị, can nhiễu đồng kênh và suy hao đa đường (multipath fading), dữ liệu đo kiểm viễn thông thường xuyên xuất hiện các giá trị ngoại lai dị thường (outliers). Bên cạnh đó, hiện tượng lệch xung đồng hồ NTP giữa trạm BTS và máy chủ trung tâm có thể dẫn đến các bản ghi đo kiểm có độ trễ âm hoặc thông lượng âm vô lý. Khâu làm sạch và xác thực dữ liệu là điều kiện tiên quyết trước khi đưa vào tính toán KPI.
+
+=== P131 | style=List Bullet | runs=2 ===
+5. Value (Giá trị nghiệp vụ và kinh tế cốt lõi): Value là giá trị kinh tế và vận hành to lớn mà hệ thống mang lại. Khai thác hiệu quả nguồn dữ liệu này giúp nhà mạng: (1) Nâng cao chất lượng trải nghiệm mạng QoE cho người dùng; (2) Kéo giảm tỷ lệ rời mạng của thuê bao (Churn Reduction); (3) Chủ động chăm sóc khách hàng trước khi phát sinh khiếu nại gay gắt; (4) Tối ưu hóa chi phí đầu tư vốn (CAPEX/OPEX) bằng cách chỉ nâng cấp đúng các trạm bị nghẽn thực sự.
+
+=== P132 | style=Normal | runs=1 ===
+1.3. Khảo sát các công nghệ Big Data áp dụng trong đề tài
+
+=== P133 | style=Normal | runs=1 ===
+Để giải quyết toàn diện bài toán từ khâu thu thập, lưu trữ, xử lý hàng loạt đến truy cập ngẫu nhiên và phân tích dự báo, đề tài đã nghiên cứu và tích hợp các công nghệ Big Data hàng đầu:
+
+=== P134 | style=List Bullet | runs=120 ===
+Apache Hadoop & HDFS: Apache Hadoop & HDFS: Nền tảng cốt lõi cung cấp kho dữ liệu phân tán (Data Lake) với khả năng mở rộng quy mô tuyến tính trên các máy chủ phần cứng tiêu chuẩn (Commodity Hardware). HDFS phân chia tệp dữ liệu thành các khối (Block) 128 MB và tự động nhân bản 3 lần (Replication Factor = 3) trên các node khác nhau, bảo đảm an toàn dữ liệu tuyệt đối khi xảy ra sự cố phần cứng.
+
+=== P135 | style=List Bullet | runs=86 ===
+Apache Flume: Apache Flume: Dịch vụ thu thập và tổng hợp dữ liệu luồng phân tán mạnh mẽ, chuyên dụng cho việc nạp các tệp log và sự kiện từ hàng nghìn trạm BTS vào HDFS và HBase với cơ chế giao dịch hai pha (Two-Phase Commit) chống mất mát dữ liệu.
+
+=== P136 | style=List Bullet | runs=122 ===
+Apache Spark & Spark SQL: Apache Spark & Spark SQL: Động cơ tính toán phân tán thế hệ mới xử lý dữ liệu hoàn toàn trên bộ nhớ RAM (In-Memory Processing). Spark sở hữu bộ tối ưu hóa truy vấn Catalyst Optimizer và động cơ sinh mã nhị phân Tungsten Engine, cho phép thực thi các phép biến đổi dữ liệu, Join đa bảng và tính toán thống kê nhanh gấp 10 đến 50 lần so với mô hình MapReduce truyền thống.
+
+=== P137 | style=List Bullet | runs=92 ===
+Hadoop MapReduce: Hadoop MapReduce (Java): Mô hình lập trình phân tán chuẩn mực của Hadoop, tối ưu hóa cho các tác vụ xử lý lô khổng lồ chạy qua đêm (Batch Jobs). Nhóm đã thiết kế thuật toán MapReduce chuyên biệt với Khóa phức hợp (Composite Key) và Bộ phân vùng tùy biến (Custom Partitioner) để xử lý KPI viễn thông.
+
+=== P138 | style=List Bullet | runs=86 ===
+Apache Pig: Apache Pig & Pig Latin: Nền tảng xử lý dữ liệu luồng cấp cao với ngôn ngữ khai báo Pig Latin, giúp rút ngắn thời gian xây dựng các kịch bản trích xuất, chuyển đổi và nạp dữ liệu (ETL) phức tạp mà không cần viết hàng trăm dòng mã Java.
+
+=== P139 | style=List Bullet | runs=76 ===
+Apache HBase: Apache HBase: Cơ sở dữ liệu NoSQL phân tán hướng cột (Column-oriented), vận hành trực tiếp trên nền tảng HDFS, cung cấp khả năng đọc/ghi ngẫu nhiên hàng triệu bản ghi theo thời gian thực với độ trễ cực thấp (< 10 mili-giây).
+
+=== P140 | style=List Bullet | runs=76 ===
+IBM BigSheets Simulator: IBM BigSheets Simulator: Giải pháp mô phỏng giao diện bảng tính trực quan (Spreadsheet UI), cho phép các chuyên viên phân tích nghiệp vụ viễn thông (Business Analysts) thao tác khám phá, lọc dữ liệu và xây dựng báo cáo điều hành No-Code.
+
+=== P141 | style=List Bullet | runs=88 ===
+Ngôn ngữ R & SQLite: Ngôn ngữ R & SQLite: Môi trường phân tích thống kê và Khoa học dữ liệu chuyên sâu, phục vụ xây dựng mô hình Học máy Hồi quy Logistic (Logistic Regression) để dự báo nguy cơ phát sinh khiếu nại khách hàng và trực quan hóa chuyên sâu bằng thư viện ggplot2.
+
+=== P142 | style=Normal | runs=1 ===
+1.4. Thiết kế kiến trúc tổng thể hệ thống (Kiến trúc Lambda)
+
+=== P143 | style=Normal | runs=1 ===
+Hệ thống được thiết kế dựa trên mô hình Kiến trúc Lambda (Lambda Architecture) chuẩn mực trong kỹ nghệ dữ liệu lớn. Kiến trúc kết hợp hài hòa giữa hai luồng xử lý: luồng xử lý lô quy mô lớn (Batch Layer) đảm bảo tính chính xác toàn vẹn và luồng xử lý tốc độ cao gần thời gian thực (Speed Layer) đảm bảo tính kịp thời cho các cảnh báo vận hành.
+
+=== P144 | style=Normal | runs=1 ===
+
+
+=== P145 | style=Normal | runs=1 ===
+Hình 1.1: Sơ đồ kiến trúc tổng thể hệ thống (Lambda Architecture)
+
+=== P146 | style=Normal | runs=2 ===
+Nhận xét và phân tích kiến trúc Hình 1.1: Phân tích và nhận xét chi tiết kiến trúc hệ thống thể hiện trong Hình 1.1:
+
+=== P147 | style=Normal | runs=1 ===
+Kiến trúc hệ thống bao gồm 5 phân tầng chức năng liên hoàn:
+
+=== P148 | style=List Bullet | runs=1 ===
+Tầng Nguồn dữ liệu (Data Sources Layer): Tiếp nhận luồng dữ liệu thô đa dạng từ hơn 50,000 trạm BTS vô tuyến 3G/4G/5G, các bản ghi cước phiên CDR/xDR và dữ liệu phản ánh khiếu nại từ hệ thống Chăm sóc khách hàng CRM.
+
+=== P149 | style=List Bullet | runs=1 ===
+Tầng Thu thập & Lưu trữ (Ingestion & Storage Layer): Apache Flume đóng vai trò là cổng thu nhận trung tâm, sử dụng FileChannel bền vững để nạp dữ liệu an toàn vào kho lưu trữ phân tán Hadoop HDFS (Data Lake) với kích thước khối 128 MB và hệ số nhân bản 3 lần.
+
+=== P150 | style=List Bullet | runs=1 ===
+Tầng Tính toán (Compute Layer): Chia làm hai nhánh xử lý song song. Nhánh Batch Layer vận hành các tác vụ MapReduce Java, Pig Latin và Spark Batch chạy định kỳ theo giờ/ngày để tính toán các chỉ số KPI dài hạn. Nhánh Speed Layer sử dụng Spark Streaming tiếp nhận luồng sự kiện nóng để phát hiện cell nghẽn tức thời.
+
+=== P151 | style=List Bullet | runs=1 ===
+Tầng Phục vụ (Serving Layer): Apache HBase NoSQL lưu trữ các chỉ số KPI thời gian thực phục vụ truy vấn ngẫu nhiên độ trễ thấp (< 10 ms). Cơ sở dữ liệu SQLite lưu trữ dữ liệu tổng hợp phục vụ các mô hình phân tích R.
+
+=== P152 | style=List Bullet | runs=1 ===
+Tầng Báo cáo & Phân tích (Analytics & BI Layer): Cung cấp giao diện BigSheets Dashboard tương tác cho người dùng nghiệp vụ và môi trường RStudio cho các nhà khoa học dữ liệu huấn luyện mô hình dự báo khiếu nại.
+
+=== P153 | style=Normal | runs=2 ===
+Ý nghĩa kỹ thuật của Kiến trúc Lambda trong đề tài: Kiến trúc Lambda giúp hệ thống giải quyết đồng thời hai bài toán tưởng chừng mâu thuẫn: xử lý hàng Terabyte dữ liệu lịch sử với độ chính xác tuyệt đối (thông qua Spark/MapReduce) nhưng vẫn duy trì khả năng cảnh báo sự cố viễn thông tức thời với độ trễ dưới 1 giây (thông qua HBase/Speed Layer).
+
+=== P154 | style=Normal | runs=0 ===
+
+
+=== P155 | style=Normal | runs=1 ===
+
+
+=== P156 | style=Normal | runs=1 ===
+CHƯƠNG 2. THIẾT KẾ DỮ LIỆU VÀ TIỀN XỬ LÝ
+
+=== P157 | style=Normal | runs=1 ===
+2.1. Nguồn dữ liệu và phân loại dữ liệu viễn thông
+
+=== P158 | style=Normal | runs=1 ===
+Trong hạ tầng mạng viễn thông hiện đại, dữ liệu được sản sinh liên tục từ nhiều thành phần mạng phân tán, bao gồm mạng truy cập vô tuyến (Radio Access Network - RAN), mạng truyền dẫn Backhaul (IP/MPLS, vi ba, cáp quang) và mạng lõi chuyển mạch gói (Evolved Packet Core - EPC / 5G Core). Để xây dựng một hệ thống dữ liệu lớn hiệu quả, việc đầu tiên là phân loại dữ liệu theo cấu trúc và đặc tính luồng dữ liệu:
+
+=== P159 | style=List Bullet | runs=2 ===
+1. Dữ liệu có cấu trúc: Dữ liệu có cấu trúc (Structured Data): Là các tập dữ liệu có lược đồ (schema) cố định, định dạng bảng rõ ràng và tuân thủ các ràng buộc toàn vẹn khóa chính - khóa ngoại. Điển hình gồm: Bảng danh mục trạm BTS (bts_towers.csv), Bảng danh mục các sector cell vô tuyến (cells_catalog.csv), và Bảng quản lý khiếu nại khách hàng (customer_complaints.csv). Dữ liệu này được lưu trữ trong các cơ sở dữ liệu quan hệ quản lý tài sản viễn thông (RDBMS Inventory) và được đồng bộ định kỳ vào Data Lake.
+
+=== P160 | style=List Bullet | runs=2 ===
+2. Dữ liệu bán cấu trúc: Dữ liệu bán cấu trúc (Semi-structured Data): Là dữ liệu không tuân theo lược đồ bảng cứng nhắc nhưng có cấu trúc tự mô tả nội tại (self-describing structure) thông qua các thẻ hoặc cặp khóa-giá trị. Điển hình là: File nhật ký hệ thống của trạm BTS (bts_syslog.log theo chuẩn RFC-5424) chứa thông tin tiến trình nhúng và mức độ cảnh báo (Severity Level); Các tệp cấu hình tham số vô tuyến định dạng XML/JSON (ran_config.xml) mô tả góc ngửa anten (antenna tilt), công suất phát (power_dbm) và ngưỡng chuyển giao (handover_margin_db).
+
+=== P161 | style=List Bullet | runs=2 ===
+3. Dữ liệu luồng: Dữ liệu luồng đo kiểm (Streaming Telemetry Data): Là dòng dữ liệu phiên đo kiểm chất lượng mạng (network_kpi_events) sinh ra từ các giao diện vô tuyến với tần suất đo 1s - 5s trên từng cell. Dữ liệu này mang tính chất biến động liên tục theo chuỗi thời gian (Time-series Stream), chứa các chỉ số đo kiểm lớp vật lý và phiên người dùng: thông lượng (throughput_mbps), độ trễ (latency_ms), tỷ lệ mất gói (packet_loss_pct), cờ rớt cuộc gọi (call_dropped) và số người dùng đồng thời (num_active_users).
+
+=== P162 | style=Normal | runs=1 ===
+2.2. Phân định ranh giới xử lý: Gần thời gian thực vs Phân tích tĩnh
+
+=== P163 | style=Normal | runs=1 ===
+Một trong những quyết định kiến trúc quan trọng nhất của kỹ sư dữ liệu lớn là phân định rõ ràng những bài toán nào cần xử lý gần thời gian thực (Near Real-Time) và những bài toán nào phù hợp cho phân tích tĩnh theo lô (Batch Analytics):
+
+=== P164 | style=List Bullet | runs=238 ===
+Phân hệ Gần thời gian thực: Xử lý gần thời gian thực (Near Real-Time - Yêu cầu độ trễ xử lý < 1 giây đến 5 giây): Áp dụng cho các tác vụ mang tính chất phản ứng khẩn cấp để duy trì độ sẵn sàng của mạng lưới. Cụ thể bao gồm: (1) Phát hiện sự cố trạm BTS mất sóng đột ngột (Network Outage); (2) Phát hiện hiện tượng bão nghẽn lưu lượng bất thường (Flash Crowds) tại các sự kiện đông người (lễ hội, sân vận động) để kịp thời kích hoạt xe phát sóng lưu động (COW); (3) Cảnh báo tỷ lệ rớt cuộc gọi tăng vọt cục bộ vượt ngưỡng SLA > 5%; (4) Tự động kích hoạt thuật toán mạng tự tối ưu (Self-Organizing Networks - SON) để cân bằng tải sang cell lân cận. Công nghệ chủ đạo: Apache Kafka, Flume, Spark Streaming và Apache HBase NoSQL.
+
+=== P165 | style=List Bullet | runs=245 ===
+ Phân hệ Phân tích tĩnh theo lô: Phân tích tĩnh theo lô (Batch Analytics - Chu kỳ tính toán theo giờ, ngày hoặc tuần): Áp dụng cho các bài toán phân tích chiến lược, tối ưu hóa dài hạn và tổng hợp số liệu toàn diện. Cụ thể bao gồm: (1) Báo cáo tổng hợp chất lượng dịch vụ SLA định kỳ theo từng quận/huyện/tỉnh; (2) Phân tích đối chiếu giữa chỉ số kỹ thuật mạng và số lượng khiếu nại khách hàng; (3) Khảo sát xu hướng suy hao tín hiệu theo tuổi thọ thiết bị phần cứng; (4) Quy hoạch mở rộng hạ tầng và phân bổ vốn đầu tư trạm BTS (Capacity Planning) cho quý tiếp theo; (5) Huấn luyện các mô hình Machine Learning dự báo tỷ lệ rời mạng của thuê bao (Churn Prediction). Công nghệ chủ đạo: Hadoop HDFS, MapReduce, Apache Pig, Spark SQL, BigSheets và R Studio.
+
+=== P166 | style=Normal | runs=1 ===
+2.3. Khảo sát cấu trúc các tập dữ liệu thực nghiệm
+
+=== P167 | style=Normal | runs=1 ===
+Trong khuôn khổ thực nghiệm của đề tài, nhóm nghiên cứu đã xây dựng và sử dụng 4 tập dữ liệu viễn thông thực nghiệm chuẩn hóa, phản ánh trung thực môi trường vận hành của mạng vô tuyến tế bào:
+
+=== P168 | style=Normal | runs=0 ===
+
+
+=== P169 | style=Normal | runs=0 ===
+
+
+=== P170 | style=Normal | runs=0 ===
+
+
+=== P171 | style=Normal | runs=1 ===
+
+
+=== P172 | style=Normal | runs=1 ===
+Bảng 2.1: Khảo sát cấu trúc 4 tập dữ liệu viễn thông thực nghiệm
+
+=== P173 | style=Normal | runs=0 ===
+
+
+=== P174 | style=Normal | runs=1 ===
+Mối quan hệ tương hỗ và cấu trúc ràng buộc giữa 4 tập dữ liệu được mô hình hóa chi tiết trong Sơ đồ thực thể quan hệ (ERD Schema) thể hiện tại Hình 2.1 dưới đây:
+
+=== P175 | style=Normal | runs=24 ===
+	Hình 2.1: Sơ đồ thực thể quan hệ dữ liệu viễn thông (ERD Schema)
+
+=== P176 | style=Normal | runs=1 ===
+Mô hình dữ liệu tuân theo cấu trúc phân cấp hình cây tiêu chuẩn trong quản lý mạng di động tế bào:
+
+=== P177 | style=List Bullet | runs=1 ===
+Quan hệ giữa Bảng bts_towers và cells_catalog là quan hệ Một-Nhiều (1 : N). Một trạm phát sóng vật lý (tower_id) luôn gắn liền với nhiều cell vô tuyến phát sóng theo các hướng khác nhau (các sector có góc ngửa azimuth 0°, 120°, 240°) và các công nghệ khác nhau (3G tần số 2100MHz, 4G LTE tần số 1800MHz, 5G NR tần số 2600MHz).
+
+=== P178 | style=List Bullet | runs=1 ===
+Quan hệ giữa Bảng cells_catalog và network_kpi_events là quan hệ Một-Nhiều (1 : N). Mỗi sector cell theo chu kỳ đo liên tục sinh ra hàng nghìn bản ghi sự kiện đo kiểm (event_id). Khóa kết nối hai bảng bao gồm cặp khóa (tower_id, cell_id).
+
+=== P179 | style=List Bullet | runs=1 ===
+Quan hệ giữa Bảng bts_towers / cells_catalog và customer_complaints là quan hệ Một-Nhiều (1 : N). Khi khách hàng phản ánh chất lượng dịch vụ kém, hệ thống CSKH sẽ tự động ánh xạ vị trí thuê bao đến trạm BTS và cell mà thuê bao đang bắt sóng tại thời điểm xảy ra sự cố.
+
+=== P180 | style=Normal | runs=1 ===
+2.4. Đánh giá chất lượng dữ liệu và các vấn đề dị thường
+
+=== P181 | style=Normal | runs=1 ===
+Dữ liệu đo kiểm viễn thông thực tế thu thập từ hàng chục nghìn trạm phát sóng luôn chứa đựng độ nhiễu và các giá trị dị thường bắt nguồn từ lỗi phần cứng cảm biến, suy hao đường truyền vô tuyến hoặc lỗi xung nhịp. Nhóm đã xây dựng ma trận phân tích rủi ro và giải pháp xử lý chất lượng dữ liệu như sau:
+
+=== P182 | style=Normal | runs=1 ===
+Bảng 2.2: Ma trận rủi ro và phương án xử lý chất lượng dữ liệu đo kiểm
+
+=== P183 | style=Normal | runs=0 ===
+
+
+=== P184 | style=Normal | runs=129 ===
+Ma trận rủi ro đã chỉ rõ 5 nhóm lỗi điển hình trong thực tế khai thác mạng viễn thông. Việc áp dụng các bộ lọc kiểm tra tính hợp lệ dữ liệu ngay tại tầng Ingestion và tầng Staging là bắt buộc để ngăn chặn dữ liệu rác lan truyền vào các tầng tính toán nghiệp vụ cấp cao, bảo đảm tính trung thực cho các chỉ số KPI.
+
+=== P185 | style=Normal | runs=1 ===
+2.5. Quy trình làm sạch dữ liệu và kỹ thuật tạo đặc trưng
+
+=== P186 | style=Normal | runs=1 ===
+Quy trình tiền xử lý dữ liệu được thiết kế thành một chuỗi biến đổi tuần tự gồm 2 bước cốt lõi:
+
+=== P187 | style=List Bullet | runs=1 ===
+Bước 1 - Khử trùng lặp và làm sạch logic (Data Cleansing): Hệ thống loại bỏ các bản ghi trùng lặp (distinct) do cơ chế gửi lại bản tin của mạng truyền dẫn, đồng thời loại bỏ các dòng có trường định danh bị rỗng hoặc vi phạm các miền giá trị vật lý (độ trễ âm, thông lượng âm, mất gói vượt 100%). Sau bước này, tập dữ liệu thực nghiệm đã loại bỏ 48 bản ghi lỗi (chiếm 0.40%), giữ lại 11,952 bản ghi hoàn toàn sạch.
+
+=== P188 | style=List Bullet | runs=2 ===
+Kỹ thuật tạo đặc trưng (Feature Engineering): Bước 2 - Kỹ thuật tạo đặc trưng nghiệp vụ (Feature Engineering): Để phục vụ các bài toán phân tích quản trị và huấn luyện mô hình học máy, hệ thống tính toán thêm 4 cột đặc trưng phái sinh:
+
+=== P189 | style=Normal | runs=37 ===
+1. Dung lượng phiên dữ liệu (Session Volume - MB): Tính toán tổng dung lượng dữ liệu truyền tải thành công trong chu kỳ đo 5 giây:
+
+=== P190 | style=Normal | runs=1 ===
+
+
+=== P191 | style=Normal | runs=0 ===
+
+
+=== P192 | style=Normal | runs=39 ===
+2. Tỷ lệ rớt cuộc gọi chuẩn hóa (Call Drop Rate %): Chuyển đổi cờ rớt cuộc gọi nhị phân (0 hoặc 1) sang thang đo phần trăm:
+
+=== P193 | style=Normal | runs=1 ===
+
+
+=== P194 | style=Normal | runs=79 ===
+3. Nhận diện trạng thái quá tải vô tuyến (Congestion Status): Phân loại một phiên đo kiểm rơi vào tình trạng quá tải nghẽn mạng khi số người dùng đồng thời vượt quá 150 thuê bao nhưng thông lượng trung bình tụt xuống dưới 15 Mbps:
+
+=== P195 | style=Normal | runs=1 ===
+
+
+=== P196 | style=Normal | runs=85 ===
+4. Điểm chất lượng dịch vụ tổng hợp (QoS Score - Thang điểm 100): Đánh giá chất lượng dịch vụ tổng thể của một trạm BTS thông qua hàm suy giảm tuyến tính kết hợp 3 trọng số kỹ thuật viễn thông (35% cho Độ trễ, 35% cho Mất gói và 30% cho Rớt cuộc gọi
+
+=== P197 | style=Normal | runs=1 ===
+
+
+=== P198 | style=Normal | runs=0 ===
+
+
+=== P199 | style=Normal | runs=0 ===
+
+
+=== P200 | style=Normal | runs=0 ===
+
+
+=== P201 | style=Normal | runs=0 ===
+
+
+=== P202 | style=Normal | runs=1 ===
+
+
+=== P203 | style=Normal | runs=1 ===
+CHƯƠNG 3. XÂY DỰNG HỆ THỐNG XỬ LÝ DỮ LIỆU LỚN
+
+=== P204 | style=Normal | runs=1 ===
+3.1. Thiết lập môi trường triển khai thực nghiệm
+
+=== P205 | style=Normal | runs=1 ===
+Hệ thống được thiết kế và triển khai theo mô hình kiến trúc phân tán lai ghép (Hybrid Big Data Architecture) kết hợp giữa Cụm máy ảo Linux và Máy trạm Khoa học dữ liệu Windows:
+
+=== P206 | style=List Bullet | runs=1 ===
+Hạ tầng Cụm Big Data (Ubuntu Server 22.04 LTS): Đóng vai trò là cụm xử lý phân tán chính (masternode tại địa chỉ IP 192.168.231.132), cấp phát 4 vCPU, 8 GB RAM và 100 GB dung lượng lưu trữ trên nền tảng ảo hóa VMware Workstation Pro. Cụm vận hành đầy đủ hệ sinh thái: Apache Hadoop 3.3.6 (NameNode, DataNode, YARN ResourceManager, NodeManager), Apache Spark 3.5.0, Apache Flume 1.11.0, Apache Pig 0.17.0 và Apache HBase 2.5.5 trên nền Java OpenJDK 11 và Python 3.12.
+
+=== P207 | style=List Bullet | runs=1 ===
+Hạ tầng Máy trạm Phân tích (Windows 11 Host): Đóng vai trò là môi trường Khoa học dữ liệu (Data Science Workstation), vận hành R 4.6.1, RStudio Desktop 2026.09.0, Node.js 18+ và Power BI để kết nối dữ liệu từ xa, huấn luyện mô hình học máy và xây dựng Dashboard điều hành.
+
+=== P208 | style=Normal | runs=1 ===
+3.2. Tổ chức lưu trữ phân tán và cơ chế dung lỗi trên HDFS
+
+=== P209 | style=Normal | runs=1 ===
+Hệ thống tệp phân tán HDFS đóng vai trò là kho lưu trữ dữ liệu trung tâm (Data Lake). Cây thư mục trên HDFS được tổ chức khoa học theo chuẩn kiến trúc dữ liệu doanh nghiệp:
+
+=== P210 | style=List Bullet | runs=1 ===
+/telecom/raw/: Chứa các tệp log thô được đẩy liên tục từ các trạm BTS thông qua Apache Flume. Vùng này có tính chất bất biến (Immutable), chỉ cấp quyền ghi cho tiến trình thu thập.
+
+=== P211 | style=List Bullet | runs=1 ===
+/telecom/staging/: Vùng đệm trung chuyển tạm thời phục vụ các tác vụ ETL hàng ngày, dữ liệu có vòng đời ngắn tự động xóa sau 7 ngày.
+
+=== P212 | style=List Bullet | runs=1 ===
+/telecom/curated/: Chứa dữ liệu sạch chuẩn hóa định dạng cột Snappy Parquet phân vùng theo ngày và mã trạm (year=2026/month=09/day=18/province=HaNoi/tower_id=TOWER_001/).
+
+=== P213 | style=List Bullet | runs=1 ===
+/telecom/output/: Thư mục lưu trữ kết quả tính toán phân tán của các job MapReduce, Pig và Spark.
+
+=== P214 | style=Normal | runs=3 ===
+Cơ chế dung lỗi và độ tin cậy HDFS: Kích thước khối (Block Size) được thiết lập ở mức 128 MB nhằm giảm thiểu số lượng block và tải quản lý metadata trên bộ nhớ RAM của NameNode. Hệ số nhân bản (Replication Factor) được đặt bằng 3 theo Chính sách nhận biết mạng (Rack Awareness): Bản sao 1 nằm trên Node cục bộ ghi dữ liệu, Bản sao 2 nằm trên một Node khác cùng Rack, và Bản sao 3 nằm trên một Node ở Rack khác. NameNode duy trì liên lạc với DataNode thông qua tín hiệu nhịp tim (Heartbeat 3s) và báo cáo khối (Block Report). Nếu một DataNode ngừng hoạt động sau 10 phút 30 giây, NameNode sẽ tự động khởi tạo tiến trình nhân bản các khối dữ liệu bị thiếu sang các DataNode còn lại, bảo đảm an toàn dữ liệu tuyệt đối.
+
+=== P215 | style=Normal | runs=2 ===
+Tính toán dung lượng lưu trữ thực tế: Bài toán tính toán dung lượng lưu trữ HDFS cho 500 trạm BTS:
+
+=== P216 | style=List Bullet | runs=1 ===
+Số lượng trạm BTS: 500 trạm; Mỗi trạm có trung bình 4 cell vô tuyến => Toàn mạng có: 2,000 cell.
+
+=== P217 | style=List Bullet | runs=1 ===
+Chu kỳ đo kiểm: 5 giây/lần/cell => Tần suất sinh dữ liệu toàn mạng: 400 sự kiện/giây.
+
+=== P218 | style=List Bullet | runs=1 ===
+Tổng số sự kiện sinh ra trong 1 ngày (86,400 giây): 2,000 * (86,400 / 5) = 34,560,000 sự kiện/ngày.
+
+=== P219 | style=List Bullet | runs=1 ===
+Dung lượng dữ liệu thô chưa nén (kích thước trung bình 256 bytes/sự kiện): 34,560,000 * 256 bytes = 8.847 GB/ngày.
+
+=== P220 | style=List Bullet | runs=1 ===
+Dung lượng sau khi nén chuẩn Snappy Parquet (giảm 65% dung lượng): 8.847 GB * 0.35 = 3.097 GB/ngày.
+
+=== P221 | style=List Bullet | runs=1 ===
+Dung lượng thực tế cần lưu trữ trên HDFS mỗi ngày (kèm 10% metadata và Replication Factor = 3): 3.097 GB * 1.10 * 3 = 10.22 GB HDFS/ngày.
+
+=== P222 | style=List Bullet | runs=1 ===
+Dung lượng lưu trữ dự tính cho 1 năm (365 ngày): 10.22 GB * 365 = 3.73 Terabyte HDFS. Dung lượng cho 3 năm hoạt động (dự phòng mở rộng mạng lưới 20%/năm): xấp xỉ 13.58 Terabyte.
+
+=== P223 | style=Normal | runs=1 ===
+3.3. Thiết kế pipeline luồng dữ liệu đầu cuối (End-to-End)
+
+=== P224 | style=Normal | runs=1 ===
+Pipeline xử lý dữ liệu được thiết kế thành một chu trình khép kín gồm 5 giai đoạn liên hoàn từ khâu thu thập log thô đến khi xuất ra các bảng điều khiển nghiệp vụ:
+
+=== P225 | style=Normal | runs=1 ===
+
+
+=== P226 | style=Normal | runs=1 ===
+Hình 3.1: Pipeline luồng dữ liệu đầu cuối từ Ingestion đến Analytics
+
+=== P227 | style=List Bullet | runs=1 ===
+Giai đoạn 1 (Thu thập - Ingestion): Flume Agent cấu hình Spooling Directory Source quét liên tục thư mục /var/log/telecom/, nạp sự kiện vào FileChannel bền vững và đẩy theo từng khối batch 1000 sự kiện qua HDFS Sink. Đối với luồng sự kiện nóng, cấu hình Dual Channel đẩy đồng thời vào HBase.
+
+=== P228 | style=List Bullet | runs=1 ===
+Giai đoạn 2 (Lưu trữ - Storage): Dữ liệu cập cảng HDFS tại /telecom/input/, tự động băm thành các khối 128 MB và nhân bản 3 lần.
+
+=== P229 | style=List Bullet | runs=1 ===
+Giai đoạn 3 (Làm sạch & ETL): Spark DataFrame và Pig Latin đọc song song dữ liệu, thực hiện kiểm tra tính hợp lệ và loại bỏ các bản ghi có thông lượng âm, độ trễ âm hoặc mất gói > 100%.
+
+=== P230 | style=List Bullet | runs=1 ===
+Giai đoạn 4 (Tính toán KPI): Thuật toán MapReduce và Spark SQL thực thi các phép gom nhóm (Group By) theo trạm phát sóng và công nghệ mạng, tính toán chỉ số CDR %, phân loại trạm lỗi.
+
+=== P231 | style=List Bullet | runs=1 ===
+Giai đoạn 5 (Phục vụ & Phân tích): Kết quả được nạp vào Apache HBase NoSQL (cho truy cập ngẫu nhiên độ trễ < 10 ms), SQLite Database (cho mô hình học máy R) và hiển thị trên BigSheets Dashboard.
+
+=== P232 | style=Normal | runs=1 ===
+3.4. Cài đặt pipeline phân tích bằng Apache Spark & Spark SQL
+
+=== P233 | style=Normal | runs=121 ===
+Apache Spark là thành phần tính toán cốt lõi đảm nhiệm xử lý biến đổi dữ liệu quy mô lớn trong bộ nhớ. Chương trình telecom_spark_pipeline.py tận dụng tối đa hai cơ chế tối ưu hóa ngầm định mạnh mẽ của Spark là Catalyst Optimizer (tối ưu hóa cây kế hoạch logic và vật lý) và Tungsten Engine (quản lý bộ nhớ off-heap và sinh mã bytecode thực thi tức thời Whole-stage Code Generation).
+
+=== P234 | style=Normal | runs=1 ===
+3.5. Các thành phần và thuật toán chuyên biệt trong đề tài
+
+=== P235 | style=Normal | runs=1 ===
+3.5.1. Thuật toán MapReduce tối ưu tính KPI viễn thông
+
+=== P236 | style=Normal | runs=1 ===
+Mặc dù Apache Spark có tốc độ vượt trội, thuật toán Hadoop MapReduce (Java) vẫn là nền tảng chuẩn mực cho các tác vụ xử lý lô khổng lồ không bị áp lực thời gian. Để tính toán KPI viễn thông chính xác và tối ưu đường truyền mạng, nhóm đã thiết kế một giải pháp kỹ thuật tối ưu hóa MapReduce gồm 3 cải tiến quan trọng:
+
+=== P237 | style=Normal | runs=1 ===
+
+
+=== P238 | style=Normal | runs=1 ===
+Hình 3.2: Sơ đồ luồng thuật toán MapReduce với Composite Key và Custom Partitioner
+
+=== P239 | style=List Bullet | runs=1 ===
+1. Khóa phức hợp (Composite Key - TowerTechKey): Thay vì chỉ sử dụng một khóa đơn giản, lớp TowerTechKey gói gọn hai trường (tower_id, technology) và hiện thực giao diện WritableComparable. Điều này cho phép sắp xếp tự nhiên theo thứ tự trạm BTS trước, sau đó sắp xếp theo thế hệ công nghệ (3G -> 4G -> 5G).
+
+=== P240 | style=List Bullet | runs=1 ===
+2. Bộ phân vùng tùy biến (Custom TowerPartitioner): Trong mạng viễn thông, một trạm BTS luôn phát sóng đồng thời cả 3G, 4G và 5G. Nếu dùng bộ băm mặc định, các công nghệ của cùng một trạm có thể bị phân tán sang các Reducer khác nhau. Bộ phân vùng tùy biến TowerPartitioner chỉ băm theo tower_id duy nhất: (key.getTowerId().hashCode() & Integer.MAX_VALUE) % numPartitions. Cơ chế này bảo đảm toàn bộ dữ liệu của một trạm tập trung về cùng một Reducer, triệt tiêu hoàn toàn hiện tượng lệch dữ liệu (Data Skew).
+
+=== P241 | style=List Bullet | runs=1 ===
+3. Bộ gộp cục bộ (Combiner): Chạy trực tiếp trên từng DataNode ngay sau pha Map, thực hiện cộng dồn sơ bộ thông lượng, độ trễ và số cuộc gọi rớt trước khi phát ra mạng. Cải tiến này giúp cắt giảm hơn 80% lưu lượng mạng I/O trong pha Shuffle.
+
+=== P242 | style=Normal | runs=1 ===
+3.5.2. Kịch bản ETL và phân cụm trạm lỗi với Apache Pig Latin
+
+=== P243 | style=Normal | runs=129 ===
+Apache Pig cung cấp ngôn ngữ kịch bản luồng dữ liệu Pig Latin, giúp viết các tác vụ trích xuất và biến đổi (ETL) một cách ngắn gọn mà không cần viết hàng trăm dòng code Java MapReduce. Kịch bản telecom_kpi_analysis.pig nạp dữ liệu từ HDFS, lọc bỏ các giá trị dị thường, liên kết với danh mục trạm BTS và lọc ra danh sách các trạm có tỷ lệ rớt cuộc gọi vượt ngưỡng 2.0%:
+
+=== P244 | style=Normal | runs=1 ===
+3.5.3. Thiết kế bảng Apache HBase phục vụ truy cập ngẫu nhiên
+
+=== P245 | style=Normal | runs=1 ===
+Trong khi HDFS tối ưu hóa cho các thao tác đọc quét tuần tự toàn bộ tệp (Sequential Scan), hệ thống giám sát NOC của nhà mạng lại đòi hỏi khả năng tra cứu ngẫu nhiên tức thời lịch sử chất lượng của một trạm BTS bất kỳ với độ trễ dưới 10 mili-giây. Để giải quyết bài toán này, nhóm đã thiết kế bảng NoSQL phân tán Apache HBase mang tên telecom_kpi_summary:
+
+=== P246 | style=Normal | runs=1 ===
+Bảng 3.1: Thiết kế bảng Apache HBase lưu trữ chỉ số KPI viễn thông độ trễ thấp
+
+=== P247 | style=Normal | runs=1 ===
+
+
+=== P248 | style=Normal | runs=1 ===
+3.5.4. Mô phỏng phân tích nghiệp vụ tương tác với BigSheets
+
+=== P249 | style=Normal | runs=1 ===
+IBM BigSheets là công cụ phân tích dữ liệu lớn trên giao diện bảng tính (Spreadsheet) dành cho các nhà phân tích nghiệp vụ mà không cần viết mã lệnh phức tạp. Nhóm đã xây dựng chương trình mô phỏng tương đương bằng Web Application tương tác (bigsheets/web_app/) kết hợp với Spark DataFrame:
+
+=== P250 | style=Normal | runs=1 ===
+
+
+=== P251 | style=Normal | runs=1 ===
+Hình 3.3: Giao diện mô phỏng Dashboard phân tích nghiệp vụ BigSheets
+
+=== P252 | style=Normal | runs=0 ===
+
+
+=== P253 | style=Normal | runs=0 ===
+
+
+=== P254 | style=Normal | runs=1 ===
+
+
+=== P255 | style=Normal | runs=2 ===
+Hình 3.3: Quy trình nghiệp vụ mô phỏng ánh xạ chính xác 
+
+=== P256 | style=Normal | runs=1 ===
+3.5.5. Mô hình Hồi quy Logistic dự báo khiếu nại bằng R & SQLite
+
+=== P257 | style=Normal | runs=1 ===
+Ngôn ngữ R kết hợp cơ sở dữ liệu SQLite đảm nhiệm khâu phân tích khoa học dữ liệu chuyên sâu và dự báo nguy cơ phát sinh khiếu nại khách hàng. Kịch bản telecom_analysis.R sử dụng thư viện DBI và RSQLite để kết nối vào tệp CSDL telecom_network.sqlite, thực thi truy vấn SQL có INNER JOIN 3 bảng và GROUP BY theo (tower_id, technology). Dữ liệu sau đó được tiền xử lý bằng dplyr/tidyr và đưa vào mô hình Học máy Hồi quy Logistic (Logistic Regression) với hàm liên kết Logit:
+
+=== P258 | style=Normal | runs=7 ===
+ln( P / (1 - P) ) = β₀ + β₁ · Latency + β₂ · PacketLoss + β₃ · Throughput + β₄ · ActiveUsers
+
+=== P259 | style=Normal | runs=1 ===
+Trong đó, P là xác suất trạm BTS phát sinh khiếu nại từ khách hàng (has_complaint = 1). Mô hình giúp Trung tâm CSKH chủ động khoanh vùng các trạm có xác suất P > 0.5 để điều phối kỹ sư xử lý trước khi khách hàng gọi điện phản ánh.
+
+=== P260 | style=Normal | runs=0 ===
+
+
+=== P261 | style=Normal | runs=0 ===
+
+
+=== P262 | style=Normal | runs=1 ===
+
+
+=== P263 | style=Normal | runs=0 ===
+
+
+=== P264 | style=Normal | runs=1 ===
+
+
+=== P265 | style=Normal | runs=0 ===
+
+
+=== P266 | style=Normal | runs=1 ===
+
+
+=== P267 | style=Normal | runs=1 ===
+
+
+=== P268 | style=Normal | runs=1 ===
+3.6. Cơ chế lưu trữ và xuất kết quả đa tầng
+
+=== P269 | style=Normal | runs=1 ===
+Hệ thống kết xuất và lưu trữ dữ liệu đầu ra theo kiến trúc đa tầng (Multi-tier Serving Architecture) phù hợp với từng mục đích khai thác:
+
+=== P270 | style=List Bullet | runs=1 ===
+Tầng Lưu trữ Lô (HDFS): Lưu trữ kết quả tổng hợp dưới dạng CSV và nén Parquet tại /telecom/output/ phục vụ lưu trữ vĩnh viễn và kiểm toán dữ liệu.
+
+=== P271 | style=List Bullet | runs=1 ===
+Tầng Tra cứu Thời gian thực (HBase): Cung cấp API truy vấn chỉ số theo trạm cho Dashboard giám sát NOC thời gian thực.
+
+=== P272 | style=List Bullet | runs=1 ===
+Tầng Quan hệ & Thống kê (SQLite Database): Bảng kpi_analysis_summary trong file telecom_network.sqlite lưu trữ kết quả phân tích thống kê và xác suất khiếu nại dự báo từ R.
+
+=== P273 | style=List Bullet | runs=1 ===
+Tầng Báo cáo Trực quan: Tự động kết xuất 2 biểu đồ PNG chất lượng cao (chart1_latency_by_tech.png và chart2_packet_loss_vs_drop_rate.png) cùng bảng tổng hợp Power BI (telecom_kpi_summary_powerbi.csv).
+
+=== P274 | style=Normal | runs=1 ===
+
+
+=== P275 | style=Normal | runs=1 ===
+CHƯƠNG 4. THỰC NGHIỆM VÀ ĐÁNH GIÁ KẾT QUẢ
+
+=== P276 | style=Normal | runs=1 ===
+4.1. Kịch bản và dữ liệu thực nghiệm
+
+=== P277 | style=Normal | runs=1 ===
+Quá trình thực nghiệm được tiến hành trên tập dữ liệu đo kiểm viễn thông lưu trữ tại tệp network_kpi_events.csv gồm chính xác 12.001 dòng (bao gồm 1 dòng tiêu đề và 12.000 bản ghi dữ liệu sự kiện đo kiểm). Dữ liệu được thu thập từ mạng lưới 20 trạm phát sóng BTS và 80 sector cell phân bố tại 3 trung tâm đô thị lớn của Việt Nam: Hà Nội, Thành phố Hồ Chí Minh và Đà Nẵng. Mỗi trạm phát sóng bao gồm đầy đủ 3 thế hệ công nghệ mạng vô tuyến: 3G (băng tần 2100 MHz), 4G LTE (băng tần 1800 MHz, 2600 MHz) và 5G NR (băng tần 3500 MHz).
+
+=== P278 | style=Normal | runs=1 ===
+Các kịch bản đo kiểm mô phỏng đầy đủ các tình huống vận hành thực tế trong giờ cao điểm và giờ thấp điểm, bao gồm các phiên truyền dữ liệu Internet băng rộng, cuộc gọi thoại VoLTE/VoNR, tình trạng nghẽn mạng do tập trung đông người và các sự cố suy hao đường truyền truyền dẫn Backhaul.
+
+=== P279 | style=Normal | runs=1 ===
+4.2. Kết quả phân tích chất lượng mạng viễn thông
+
+=== P280 | style=Normal | runs=1 ===
+Sau khi thực thi toàn diện pipeline tiền xử lý và tính toán phân tán trên cụm Hadoop và Spark, hệ thống đã trích xuất danh sách Top 10 trạm phát sóng có chất lượng kém nhất toàn mạng cần can thiệp kỹ thuật khẩn cấp:
+
+=== P281 | style=Normal | runs=1 ===
+Bảng 4.1: Bảng tổng hợp KPI Top 10 trạm phát sóng suy giảm chất lượng nghiêm trọng
+
+=== P282 | style=Normal | runs=0 ===
+
+
+=== P283 | style=Normal | runs=1 ===
+Bảng 4.1 đã cô lập chính xác 3 trạm phát sóng bị suy thoái chất lượng nghiêm trọng nhất toàn mạng: TOWER_003 (Hà Nội), TOWER_008 (TP.HCM) và TOWER_015 (Đà Nẵng). Đáng chú ý, cả 3 trạm này đều bị suy giảm đồng thời trên toàn bộ các băng tần (3G, 4G, 5G), với độ trễ trung bình luôn vượt ngưỡng 180 ms (gấp gần 4 lần ngưỡng an toàn viễn thông 50 ms), tỷ lệ mất gói trung bình vượt 8.5% và tỷ lệ rớt cuộc gọi dao động từ 6.67% đến 11.81%, vượt xa ngưỡng cam kết chất lượng dịch vụ SLA (2.0%). Điểm chất lượng dịch vụ QoS của 3 trạm này đều tụt xuống mức báo động đỏ (< 21 điểm). Hiện tượng suy giảm đồng thời trên mọi dải tần chứng minh nguyên nhân gốc rễ không nằm ở giao diện vô tuyến mà do nghẽn đường truyền Backhaul từ trạm BTS về mạng lõi.
+
+=== P284 | style=Normal | runs=1 ===
+Dưới đây là chuỗi 6 biểu đồ trực quan hóa chuyên sâu phân tích đa chiều về chất lượng mạng viễn thông:
+
+=== P285 | style=Normal | runs=1 ===
+
+
+=== P286 | style=Normal | runs=1 ===
+Hình 4.1: Biểu đồ hộp phân bố độ trễ theo thế hệ công nghệ mạng (3G, 4G, 5G)
+
+=== P287 | style=Normal | runs=2 ===
+Nhận xét và phân tích chi tiết Hình 4.1: Phân tích và nhận xét Hình 4.1:
+
+=== P288 | style=Normal | runs=1 ===
+Biểu đồ hộp (Boxplot) thể hiện rõ rệt sự vượt trội của các thế hệ mạng vô tuyến mới: Mạng 5G đạt độ trễ trung vị lý tưởng cực thấp (khoảng 10 - 15 ms) với độ phân tán rất hẹp; Mạng 4G duy trì độ trễ ổn định trong khoảng 20 - 45 ms; Trong khi mạng 3G có độ trễ trung vị cao (60 - 80 ms) và dải biến động rất rộng. Các điểm ngoại lai (outliers chấm đỏ) ở mạng 4G và 5G vọt lên trên 150 ms phản ánh chính xác các phiên kết nối tại các trạm bị nghẽn đường truyền truyền dẫn Backhaul.
+
+=== P289 | style=Normal | runs=1 ===
+
+
+=== P290 | style=Normal | runs=1 ===
+Hình 4.2: Biểu đồ tương quan giữa Tỷ lệ mất gói (%) và Tỷ lệ rớt cuộc gọi (%)
+
+=== P291 | style=Normal | runs=13 ===
+Nhận xét và phân tích chi tiết Hình 4.2: 
+
+=== P292 | style=Normal | runs=1 ===
+Biểu đồ phân tán có đường hồi quy chứng minh mối tương quan tuyến tính thuận cực kỳ chặt chẽ giữa tỷ lệ mất gói và tỷ lệ rớt cuộc gọi. Khi tỷ lệ mất gói nằm trong ngưỡng kiểm soát (< 2.0%), tỷ lệ rớt cuộc gọi duy trì ở mức an toàn (< 0.5%). Tuy nhiên, khi mất gói vượt mốc 3.0%, tỷ lệ rớt cuộc gọi tăng vọt theo cấp số nhân lên mức 5.0% - 11.0%. Kích thước bong bóng biểu thị số lượng người dùng đồng thời (active users), khẳng định các cell phục vụ trên 150 người dùng đồng thời có nguy cơ tràn bộ đệm định tuyến cao nhất.
+
+=== P293 | style=Normal | runs=1 ===
+
+
+=== P294 | style=Normal | runs=1 ===
+Hình 4.3: Biểu đồ tỷ lệ rớt cuộc gọi theo Tỉnh thành và Công nghệ mạng
+
+=== P295 | style=Normal | runs=14 ===
+Nhận xét và phân tích chi tiết Hình 4.3:
+
+=== P296 | style=Normal | runs=1 ===
+Biểu đồ so sánh tỷ lệ rớt cuộc gọi trung bình của 3 công nghệ mạng tại 3 thành phố lớn với đường tham chiếu chuẩn viễn thông SLA (2.0%). Kết quả cho thấy mạng 3G tại tất cả các tỉnh thành đều vi phạm ngưỡng SLA. Tại Đà Nẵng, tỷ lệ rớt mạng của 4G và 5G vượt nhẹ ngưỡng 2.0% do sự cố nghiêm trọng tại trạm TOWER_015 kéo tụt chỉ số trung bình của toàn vùng.
+
+=== P297 | style=Normal | runs=1 ===
+
+
+=== P298 | style=Normal | runs=1 ===
+Hình 4.4: Biểu đồ bong bóng đa chiều tương quan Độ trễ và Mất gói theo Trạm BTS
+
+=== P299 | style=Normal | runs=13 ===
+Nhận xét và phân tích chi tiết Hình 4.4:
+
+=== P300 | style=Normal | runs=1 ===
+Biểu đồ bong bóng đa chiều phân cụm trạm BTS theo trục hoành (Độ trễ) và trục tung (Mất gói), kích thước bóng tương ứng lưu lượng và màu sắc thể hiện điểm QoS. Vùng nguy hiểm (Critical Zone ở góc trên bên phải: Độ trễ > 50 ms và Mất gói > 2%) đã cô lập hoàn toàn 3 trạm TOWER_003, TOWER_008 và TOWER_015, tách biệt hoàn toàn với cụm các trạm vận hành khỏe mạnh ở góc dưới bên trái.
+
+=== P301 | style=Normal | runs=0 ===
+
+
+=== P302 | style=Normal | runs=1 ===
+
+
+=== P303 | style=Normal | runs=1 ===
+Hình 4.5: Biểu đồ xếp hạng cảnh báo Top 10 trạm BTS chất lượng kém nhất cần bảo trì
+
+=== P304 | style=Normal | runs=13 ===
+Nhận xét và phân tích chi tiết Hình 4.5:
+
+=== P305 | style=Normal | runs=1 ===
+Biểu đồ thanh ngang phân cấp rõ rệt mức độ ưu tiên xử lý: 3 trạm TOWER_008 (18.1 điểm), TOWER_003 (18.6 điểm) và TOWER_015 (20.2 điểm) có thanh màu đỏ cảnh báo khẩn cấp (dưới ngưỡng 60 điểm). Các trạm còn lại đều đạt trên 87 điểm (màu cam/vàng), cho phép đội kỹ thuật NOC tập trung nguồn lực can thiệp đúng trọng điểm.
+
+=== P306 | style=Normal | runs=1 ===
+
+
+=== P307 | style=Normal | runs=1 ===
+Hình 4.6: Ảnh chụp màn hình môi trường thực thi và phân tích mô hình học máy trên RStudio
+
+=== P308 | style=Normal | runs=13 ===
+Nhận xét và phân tích chi tiết Hình 4.6:
+
+=== P309 | style=Normal | runs=1 ===
+Ảnh chụp giao diện 4 cửa sổ chuẩn mực của RStudio Desktop: Cửa sổ mã nguồn kịch bản telecom_analysis.R; Cửa sổ Console thực thi kết nối CSDL SQLite thành công và in bảng hồi quy Logistic Regression; Cửa sổ Environment lưu trữ cấu trúc dữ liệu DataFrame; và Cửa sổ Plots hiển thị đồ thị chất lượng cao phục vụ ấn bản.
+
+=== P310 | style=Normal | runs=1 ===
+4.3. Đánh giá hiệu năng và so sánh công nghệ
+
+=== P311 | style=Normal | runs=1 ===
+Nhóm nghiên cứu đã thực hiện các bài đo đối chứng định lượng hiệu năng giữa 4 công nghệ tính toán trên cùng một tập dữ liệu thực nghiệm:
+
+=== P312 | style=Normal | runs=1 ===
+Bảng 4.2: Bảng đối chiếu định lượng hiệu năng và tài nguyên giữa Pig, MapReduce, Spark và R
+
+=== P313 | style=Normal | runs=0 ===
+
+
+=== P314 | style=Normal | runs=197 ===
+ Phân tích chuyên sâu Bảng 4.2: Kết quả đo đạc thực tế chỉ ra rằng Apache Spark hoàn thành tác vụ tính toán KPI chỉ trong 2.3 giây, nhanh gấp 15.4 lần so với Hadoop MapReduce thuần (35.4 giây) và nhanh gấp 7.8 lần so với Apache Pig (18 giây). Nguyên nhân là Spark giữ toàn bộ tập dữ liệu trong bộ nhớ RAM và tối ưu hóa cây kế hoạch thực thi bằng Catalyst Optimizer, triệt tiêu hoàn toàn chi phí Disk I/O nặng nề giữa các giai đoạn Map và Reduce. Tuy nhiên, MapReduce vẫn giữ vai trò quan trọng nhờ tính ổn định tuyệt đối trên các tập dữ liệu có quy mô hàng chục Terabyte vượt quá dung lượng RAM của cụm máy chủ.
+
+=== P315 | style=Normal | runs=1 ===
+4.4. Thảo luận kết quả và 5 Khuyến nghị hành động tối ưu mạng NOC
+
+=== P316 | style=Normal | runs=1 ===
+Từ các phát hiện định lượng rút ra từ dữ liệu thực nghiệm, nhóm đề xuất Ma trận 5 Khuyến nghị hành động kỹ thuật mang tính chiến lược cho Trung tâm Điều hành Mạng (NOC):
+
+=== P317 | style=Normal | runs=1 ===
+Bảng 4.3: Ma trận 5 khuyến nghị hành động kỹ thuật tối ưu hóa mạng viễn thông
+
+=== P318 | style=Normal | runs=0 ===
+
+
+=== P319 | style=Normal | runs=112 ===
+Nhận xét Bảng 4.3: Năm khuyến nghị trên tạo thành một kế hoạch hành động toàn diện từ can thiệp khẩn cấp sự cố phần cứng, điều chỉnh tham số vô tuyến, ứng dụng trí tuệ nhân tạo trong chăm sóc khách hàng đến tối ưu hóa chi phí hạ tầng công nghệ thông tin dài hạn cho nhà mạng.
+
+=== P320 | style=Normal | runs=1 ===
+
+
+=== P321 | style=Normal | runs=1 ===
+CHƯƠNG 5. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+
+=== P322 | style=Normal | runs=1 ===
+5.1. Kết luận các kết quả đạt được
+
+=== P323 | style=Normal | runs=67 ===
+Sau quá trình nghiên cứu lý thuyết, thiết kế kiến trúc và triển khai thực nghiệm toàn diện, đề tài "phân tích chất lượng mạng viễn thông" đã hoàn thành xuất sắc toàn bộ các mục tiêu đặt ra ban đầu:
+
+=== P324 | style=List Bullet | runs=1 ===
+Làm chủ trọn vẹn hệ sinh thái Big Data: Xây dựng thành công hệ thống tích hợp đa nền tảng gồm Hadoop HDFS, YARN, Flume, Spark, Pig, HBase, BigSheets và R, chứng minh khả năng phối hợp nhịp nhàng giữa các công nghệ mã nguồn mở hàng đầu hiện nay.
+
+=== P325 | style=List Bullet | runs=1 ===
+Thuật toán tối ưu hóa có chiều sâu kỹ thuật: Thiết kế thành công thuật toán MapReduce Java với Khóa phức hợp (Composite Key) và Bộ phân vùng tùy biến (Custom Partitioner) giải quyết triệt để vấn đề lệch dữ liệu (Data Skew), kết hợp bộ gộp Combiner cắt giảm 80% lưu lượng mạng I/O.
+
+=== P326 | style=List Bullet | runs=1 ===
+Giải quyết triệt để 3 mục tiêu viễn thông cốt lõi: Phân tích định lượng chính xác nguyên nhân gây trễ cao, mất gói và rớt cuộc gọi; cô lập chính xác Top 3 trạm phát sóng sự cố nghiêm trọng (TOWER_003, TOWER_008, TOWER_015) và chỉ ra điểm nghẽn nằm tại đường truyền Backhaul.
+
+=== P327 | style=List Bullet | runs=1 ===
+Ứng dụng Khoa học dữ liệu và Học máy thực tiễn: Xây dựng mô hình Hồi quy Logistic bằng R đạt độ tin cậy cao, định lượng được mối quan hệ giữa các tham số kỹ thuật vô tuyến và nguy cơ phát sinh khiếu nại khách hàng, phục vụ chăm sóc khách hàng chủ động.
+
+=== P328 | style=List Bullet | runs=1 ===
+Đóng gói sản phẩm hoàn chỉnh: Toàn bộ mã nguồn, dữ liệu, tài liệu hướng dẫn và báo cáo kỹ thuật được đóng gói chuẩn mực, sẵn sàng chuyển giao và triển khai trên các môi trường thực tế.
+
+=== P329 | style=Normal | runs=1 ===
+5.2. Hạn chế của đề tài
+
+=== P330 | style=Normal | runs=1 ===
+Mặc dù đạt được nhiều kết quả ấn tượng, đề tài vẫn còn tồn tại một số hạn chế do điều kiện tài nguyên phần cứng và thời gian thực hiện:
+
+=== P331 | style=List Bullet | runs=1 ===
+Quy mô thực nghiệm: Dữ liệu thực nghiệm mới dừng lại ở mức 12,000 bản ghi đo kiểm trên cụm máy chủ ảo hóa cục bộ (Single-cluster node), chưa được kiểm thử tải trên cụm máy chủ vật lý phân tán quy mô hàng chục node chạy thực tế.
+
+=== P332 | style=List Bullet | runs=1 ===
+Độ trễ tầng Stream: Hệ thống mới tích hợp mô hình Spark Batch và kịch bản Flume định kỳ; chưa tích hợp cụm Apache Kafka phân tán độc lập và công nghệ xử lý luồng sự kiện tức thời Apache Flink để đạt độ trễ sub-second (< 100 ms).
+
+=== P333 | style=List Bullet | runs=1 ===
+Mô hình học máy: Mới dừng lại ở mô hình tuyến tính Hồi quy Logistic, chưa thử nghiệm các mô hình học sâu (Deep Learning, LSTM) để dự báo chuỗi thời gian lưu lượng mạng trong tương lai.
+
+=== P334 | style=Normal | runs=1 ===
+5.3. Hướng nghiên cứu và phát triển tiếp theo
+
+=== P335 | style=Normal | runs=1 ===
+Từ những kết quả và hạn chế nêu trên, nhóm nghiên cứu đề xuất các hướng phát triển tiếp theo của đề tài:
+
+=== P336 | style=List Bullet | runs=1 ===
+Xây dựng Kiến trúc Streaming hoàn chỉnh với Apache Kafka và Apache Flink: Triển khai cụm Kafka làm hàng đợi thông điệp tập trung và Apache Flink để xử lý sự kiện đo kiểm theo từng cửa sổ trượt (Sliding Windows) với độ trễ dưới 50 mili-giây.
+
+=== P337 | style=List Bullet | runs=1 ===
+Ứng dụng Trí tuệ nhân tạo trong Vận hành mạng (AIOps): Nghiên cứu áp dụng các mạng nơ-ron học sâu (Graph Neural Networks - GNN và LSTM) để tự động phát hiện dị thường (Anomaly Detection) trên toàn bộ tô-pô mạng vô tuyến và dự báo trước sự cố đứt gãy mạng truyền dẫn từ 30 đến 60 phút.
+
+=== P338 | style=List Bullet | runs=1 ===
+Tích hợp Hệ thống Tự động hóa Mạng tự tối ưu (Closed-Loop SON Automation): Kết nối trực tiếp đầu ra phân tích của hệ thống với bộ điều khiển mạng vô tuyến (Radio Network Controller) để tự động điều chỉnh tham số công suất và góc ngửa anten mà không cần sự can thiệp thủ công của kỹ sư.
+
+=== P339 | style=Normal | runs=1 ===
+
+
+=== P340 | style=Normal | runs=1 ===
+TÀI LIỆU THAM KHẢO
+
+=== P341 | style=Normal | runs=1 ===
+[1] White, T. (2015). Hadoop: The Definitive Guide (4th ed.). O'Reilly Media. ISBN: 978-1491901632.
+
+=== P342 | style=Normal | runs=1 ===
+[2] Zaharia, M., Xin, R. S., Wendell, P., Das, T., Armbrust, M., Dave, A., Meng, X., Rosen, J., Venkataraman, S., Franklin, M. J., Ghodsi, A., Gonzalez, J., Shenker, S., & Stoica, I. (2016). Apache Spark: A unified engine for big data processing. Communications of the ACM, 59(11), 56-65.
+
+=== P343 | style=Normal | runs=1 ===
+[3] George, L. (2011). HBase: The Definitive Guide. O'Reilly Media. ISBN: 978-1449396046.
+
+=== P344 | style=Normal | runs=1 ===
+[4] Gates, A., & Dai, D. (2016). Programming Pig: Dataflow Scripting with Hadoop (2nd ed.). O'Reilly Media. ISBN: 978-1491937099.
+
+=== P345 | style=Normal | runs=1 ===
+[5] Hoffman, S. (2013). Apache Flume: Distributed Log Collection for Hadoop. Packt Publishing. ISBN: 978-1782168539.
+
+=== P346 | style=Normal | runs=1 ===
+[6] Wickham, H., & Grolemund, G. (2017). R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. O'Reilly Media. ISBN: 978-1491910399.
+
+=== P347 | style=Normal | runs=1 ===
+[7] 3GPP. (2022). Telecommunication management; Key Performance Indicators (KPI) for Evolved Universal Terrestrial Radio Access Network (E-UTRAN): Concepts and definitions (3GPP TS 32.450 version 17.0.0 Release 17).
+
+=== P348 | style=Normal | runs=1 ===
+[8] ITU-T. (2019). Framework of machine learning-assisted network orchestration for future networks (Recommendation ITU-T Y.3172). International Telecommunication Union.
+
+=== P349 | style=Normal | runs=1 ===
+[9] Dean, J., & Ghemawat, S. (2008). MapReduce: Simplified data processing on large clusters. Communications of the ACM, 51(1), 107-113.
+
+=== P350 | style=Normal | runs=1 ===
+[10] Trường Đại học Tài nguyên và Môi trường Hà Nội. (2026). Đề cương học phần và Hướng dẫn thực hiện Bài tập lớn môn Xử lý Dữ liệu lớn (Mã HP: CTKU122). Khoa Công nghệ thông tin.
+
+=== P351 | style=Normal | runs=1 ===
+
+

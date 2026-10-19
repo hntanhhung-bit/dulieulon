@@ -1,0 +1,21 @@
+P144 -> ../media/imageb.png | prev: Hệ thống được thiết kế dựa trên mô hình Kiến trúc  | next: Hình 1.1: Sơ đồ kiến trúc tổng thể hệ thống (Lambd
+P175 -> ../media/imagec.png | prev: Mối quan hệ tương hỗ và cấu trúc ràng buộc giữa 4  | next: Mô hình dữ liệu tuân theo cấu trúc phân cấp hình c
+P190 -> ../media/imaged.png | prev: 1. Dung lượng phiên dữ liệu (Session Volume - MB): | next: 
+P193 -> ../media/imagee.png | prev: 2. Tỷ lệ rớt cuộc gọi chuẩn hóa (Call Drop Rate %) | next: 3. Nhận diện trạng thái quá tải vô tuyến (Congesti
+P195 -> ../media/imagef.png | prev: 3. Nhận diện trạng thái quá tải vô tuyến (Congesti | next: 4. Điểm chất lượng dịch vụ tổng hợp (QoS Score - T
+P197 -> ../media/image10.png | prev: 4. Điểm chất lượng dịch vụ tổng hợp (QoS Score - T | next: 
+P225 -> media/image3.png | prev: Pipeline xử lý dữ liệu được thiết kế thành một chu | next: Hình 3.1: Pipeline luồng dữ liệu đầu cuối từ Inges
+P237 -> media/image4.png | prev: Mặc dù Apache Spark có tốc độ vượt trội, thuật toá | next: Hình 3.2: Sơ đồ luồng thuật toán MapReduce với Com
+P247 -> ../media/image11.png | prev: Bảng 3.1: Thiết kế bảng Apache HBase lưu trữ chỉ s | next: 3.5.4. Mô phỏng phân tích nghiệp vụ tương tác với 
+P250 -> ../media/image12.png | prev: IBM BigSheets là công cụ phân tích dữ liệu lớn trê | next: Hình 3.3: Giao diện mô phỏng Dashboard phân tích n
+P254 -> ../media/image13.png | prev:  | next: Hình 3.3: Quy trình nghiệp vụ mô phỏng ánh xạ chín
+P262 -> ../media/image14.png | prev:  | next: 
+P264 -> ../media/image15.png | prev:  | next: 
+P266 -> ../media/image16.png | prev:  | next: 
+P267 -> ../media/image17.png | prev:  | next: 3.6. Cơ chế lưu trữ và xuất kết quả đa tầng
+P285 -> media/image5.png | prev: Dưới đây là chuỗi 6 biểu đồ trực quan hóa chuyên s | next: Hình 4.1: Biểu đồ hộp phân bố độ trễ theo thế hệ c
+P289 -> media/image6.png | prev: Biểu đồ hộp (Boxplot) thể hiện rõ rệt sự vượt trội | next: Hình 4.2: Biểu đồ tương quan giữa Tỷ lệ mất gói (%
+P293 -> media/image7.png | prev: Biểu đồ phân tán có đường hồi quy chứng minh mối t | next: Hình 4.3: Biểu đồ tỷ lệ rớt cuộc gọi theo Tỉnh thà
+P297 -> media/image8.png | prev: Biểu đồ so sánh tỷ lệ rớt cuộc gọi trung bình của  | next: Hình 4.4: Biểu đồ bong bóng đa chiều tương quan Độ
+P302 -> media/image9.png | prev:  | next: Hình 4.5: Biểu đồ xếp hạng cảnh báo Top 10 trạm BT
+P306 -> media/image10.png | prev: Biểu đồ thanh ngang phân cấp rõ rệt mức độ ưu tiên | next: Hình 4.6: Ảnh chụp màn hình môi trường thực thi và

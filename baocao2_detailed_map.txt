@@ -1,0 +1,143 @@
+P017 [Heading 1]: TỔNG HỢP ĐIỂM BÀI TẬP LỚN
+P022 [Heading 1]: PHÂN CÔNG NHIỆM VỤ
+P027 [Normal]: CHƯƠNG 1. TỔNG QUAN VÀ BÀI TOÁN XỬ LÝ DỮ LIỆU LỚN
+P029 [Normal]: 1.1. Bối cảnh và lý do chọn đề tài ................................................. 7
+P030 [Normal]: 1.2. Phân tích 5 đặc trưng Big Data (5V) trong bài toán viễn thông ................. 8
+P031 [Normal]: 1.3. Khảo sát các công nghệ Big Data áp dụng trong đề tài .......................... 10
+P032 [Normal]: 1.4. Thiết kế kiến trúc tổng thể hệ thống (Kiến trúc Lambda) ....................... 12
+P033 [Normal]: CHƯƠNG 2. THIẾT KẾ DỮ LIỆU VÀ TIỀN XỬ LÝ ............................................. 14
+P034 [Normal]: 2.1. Nguồn dữ liệu và phân loại dữ liệu viễn thông ................................. 14
+P035 [Normal]: 2.2. Phân định ranh giới xử lý: Gần thời gian thực vs Phân tích tĩnh ............... 15
+P036 [Normal]: 2.3. Khảo sát cấu trúc các tập dữ liệu thực nghiệm ................................. 16
+P037 [Normal]: 2.4. Đánh giá chất lượng dữ liệu và các vấn đề dị thường ........................... 18
+P038 [Normal]: 2.5. Quy trình làm sạch dữ liệu và kỹ thuật tạo đặc trưng .......................... 19
+P039 [Normal]: CHƯƠNG 3. XÂY DỰNG HỆ THỐNG XỬ LÝ DỮ LIỆU LỚN ........................................ 21
+P040 [Normal]: 3.1. Thiết lập môi trường triển khai thực nghiệm ................................... 21
+P041 [Normal]: 3.2. Tổ chức lưu trữ phân tán và cơ chế dung lỗi trên HDFS ......................... 22
+P042 [Normal]: 3.3. Thiết kế pipeline luồng dữ liệu đầu cuối (End-to-End) ......................... 25
+P043 [Normal]: 3.4. Cài đặt pipeline phân tích bằng Apache Spark & Spark SQL ...................... 27
+P044 [Normal]: 3.5. Các thành phần và thuật toán chuyên biệt trong đề tài ......................... 29
+P045 [Normal]: 3.5.1. Thuật toán MapReduce tối ưu tính KPI viễn thông ........................... 29
+P046 [Normal]: 3.5.2. Kịch bản ETL và phân cụm trạm lỗi với Apache Pig Latin .................... 31
+P047 [Normal]: 3.5.3. Thiết kế bảng Apache HBase phục vụ truy cập ngẫu nhiên .................... 33
+P048 [Normal]: 3.5.4. Mô phỏng phân tích nghiệp vụ tương tác với BigSheets ...................... 35
+P049 [Normal]: 3.5.5. Mô hình Hồi quy Logistic dự báo khiếu nại bằng R & SQLite ................. 37
+P050 [Normal]: 3.6. Cơ chế lưu trữ và xuất kết quả đa tầng ........................................ 39
+P051 [Normal]: CHƯƠNG 4. THỰC NGHIỆM VÀ ĐÁNH GIÁ KẾT QUẢ ............................................ 40
+P052 [Normal]: 4.1. Kịch bản và dữ liệu thực nghiệm ............................................... 40
+P053 [Normal]: 4.2. Kết quả phân tích chất lượng mạng viễn thông .................................. 41
+P054 [Normal]: 4.3. Đánh giá hiệu năng và so sánh công nghệ ....................................... 46
+P055 [Normal]: 4.4. Thảo luận kết quả và 5 Khuyến nghị hành động tối ưu mạng NOC .................. 48
+P056 [Normal]: CHƯƠNG 5. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ............................................... 52
+P057 [Normal]: 5.1. Kết luận các kết quả đạt được ................................................. 52
+P058 [Normal]: 5.2. Hạn chế của đề tài ............................................................ 53
+P059 [Normal]: 5.3. Hướng nghiên cứu và phát triển tiếp theo ...................................... 53
+P062 [Normal]: Phụ lục A: Hướng dẫn cài đặt và vận hành hệ thống .................................. 56
+P063 [Normal]: Phụ lục B: Trích đoạn mã nguồn cốt lõi ............................................. 58
+P064 [Normal]: Phụ lục C: Nhật ký thực thi và ảnh chụp màn hình kiểm chứng ........................ 62
+P067 [Normal]: Hình 1.1: Sơ đồ kiến trúc tổng thể hệ thống (Lambda Architecture) ................. 13
+P068 [Normal]: Hình 2.1: Sơ đồ thực thể quan hệ dữ liệu viễn thông (ERD Schema) .................. 17
+P069 [Normal]: Hình 3.1: Pipeline luồng dữ liệu đầu cuối từ Ingestion đến Analytics .............. 26
+P070 [Normal]: Hình 3.2: Sơ đồ luồng thuật toán MapReduce với Composite Key và Custom Partitioner ... 30
+P071 [Normal]: Hình 3.3: Giao diện mô phỏng Dashboard phân tích nghiệp vụ BigSheets .............. 36
+P072 [Normal]: Hình 4.1: Biểu đồ hộp phân bố độ trễ theo thế hệ công nghệ mạng (3G, 4G, 5G) ...... 42
+P073 [Normal]: Hình 4.2: Biểu đồ tương quan giữa Tỷ lệ mất gói (%) và Tỷ lệ rớt cuộc gọi (%) ..... 43
+P074 [Normal]: Hình 4.3: Biểu đồ tỷ lệ rớt cuộc gọi theo Tỉnh thành và Công nghệ mạng ............ 44
+P075 [Normal]: Hình 4.4: Biểu đồ bong bóng đa chiều tương quan Độ trễ và Mất gói theo Trạm BTS ... 45
+P076 [Normal]: Hình 4.5: Biểu đồ xếp hạng cảnh báo Top 10 trạm BTS chất lượng kém nhất cần bảo trì ... 45
+P077 [Normal]: Hình 4.6: Ảnh chụp màn hình môi trường thực thi và phân tích mô hình học máy trên RStudio ... 46
+P079 [Normal]: Bảng 2.1: Khảo sát cấu trúc 4 tập dữ liệu viễn thông thực nghiệm .................. 16
+P080 [Normal]: Bảng 2.2: Ma trận rủi ro và phương án xử lý chất lượng dữ liệu đo kiểm ............ 18
+P081 [Normal]: Bảng 3.1: Thiết kế bảng Apache HBase lưu trữ chỉ số KPI viễn thông độ trễ thấp .... 34
+P082 [Normal]: Bảng 4.1: Bảng tổng hợp KPI Top 10 trạm phát sóng suy giảm chất lượng nghiêm trọng ... 41
+P083 [Normal]: Bảng 4.2: Bảng đối chiếu định lượng hiệu năng và tài nguyên giữa Pig, MapReduce, Spark và R ... 47
+P084 [Normal]: Bảng 4.3: Ma trận 5 khuyến nghị hành động kỹ thuật tối ưu hóa mạng viễn thông ..... 49
+P105 [List Bullet]: 1. Giảm thiểu độ trễ mạng (Latency): Phát hiện chính xác các trạm phát sóng bị nghẽn đường truyền tr
+P106 [List Bullet]: 2. Giảm tỷ lệ mất gói (Packet Loss): Cô lập các cell vô tuyến bị can nhiễu đồng kênh, lỗi tham số cô
+P107 [List Bullet]: 3. Giảm tỷ lệ rớt cuộc gọi (Call Drop Rate - CDR): Tối ưu hóa vùng phủ sóng, hỗ trợ tinh chỉnh tham 
+P116 [Normal]: CHƯƠNG 1. TỔNG QUAN VÀ BÀI TOÁN XỬ LÝ DỮ LIỆU LỚN
+P117 [Normal]: 1.1. Bối cảnh và lý do chọn đề tài
+P125 [Normal]: 1.2. Phân tích 5 đặc trưng Big Data (5V) trong bài toán viễn thông
+P127 [List Bullet]: 1. Volume (Khối lượng dữ liệu khổng lồ): Volume phản ánh quy mô dữ liệu khổng lồ. Với một mạng lưới 
+P128 [List Bullet]: 2. Velocity (Tốc độ sinh và truyền dữ liệu tức thời): Velocity phản ánh tốc độ sinh ra, truyền tải v
+P129 [List Bullet]: 3. Variety (Đa dạng về chủng loại và định dạng dữ liệu): Variety thể hiện ở sự đa dạng phức tạp về n
+P130 [List Bullet]: 4. Veracity (Tính xác thực và độ nhiễu của dữ liệu): Veracity thể hiện tính xác thực, độ tin cậy và 
+P131 [List Bullet]: 5. Value (Giá trị nghiệp vụ và kinh tế cốt lõi): Value là giá trị kinh tế và vận hành to lớn mà hệ t
+P132 [Normal]: 1.3. Khảo sát các công nghệ Big Data áp dụng trong đề tài
+P142 [Normal]: 1.4. Thiết kế kiến trúc tổng thể hệ thống (Kiến trúc Lambda)
+P144 [Normal] [HAS IMAGE]: 
+P145 [Normal]: Hình 1.1: Sơ đồ kiến trúc tổng thể hệ thống (Lambda Architecture)
+P156 [Normal]: CHƯƠNG 2. THIẾT KẾ DỮ LIỆU VÀ TIỀN XỬ LÝ
+P157 [Normal]: 2.1. Nguồn dữ liệu và phân loại dữ liệu viễn thông
+P159 [List Bullet]: 1. Dữ liệu có cấu trúc: Dữ liệu có cấu trúc (Structured Data): Là các tập dữ liệu có lược đồ (schema
+P160 [List Bullet]: 2. Dữ liệu bán cấu trúc: Dữ liệu bán cấu trúc (Semi-structured Data): Là dữ liệu không tuân theo lượ
+P161 [List Bullet]: 3. Dữ liệu luồng: Dữ liệu luồng đo kiểm (Streaming Telemetry Data): Là dòng dữ liệu phiên đo kiểm ch
+P162 [Normal]: 2.2. Phân định ranh giới xử lý: Gần thời gian thực vs Phân tích tĩnh
+P166 [Normal]: 2.3. Khảo sát cấu trúc các tập dữ liệu thực nghiệm
+P172 [Normal]: Bảng 2.1: Khảo sát cấu trúc 4 tập dữ liệu viễn thông thực nghiệm
+P175 [Normal] [HAS IMAGE]: Hình 2.1: Sơ đồ thực thể quan hệ dữ liệu viễn thông (ERD Schema)
+P180 [Normal]: 2.4. Đánh giá chất lượng dữ liệu và các vấn đề dị thường
+P182 [Normal]: Bảng 2.2: Ma trận rủi ro và phương án xử lý chất lượng dữ liệu đo kiểm
+P185 [Normal]: 2.5. Quy trình làm sạch dữ liệu và kỹ thuật tạo đặc trưng
+P189 [Normal]: 1. Dung lượng phiên dữ liệu (Session Volume - MB): Tính toán tổng dung lượng dữ liệu truyền tải thàn
+P190 [Normal] [HAS IMAGE]: 
+P192 [Normal]: 2. Tỷ lệ rớt cuộc gọi chuẩn hóa (Call Drop Rate %): Chuyển đổi cờ rớt cuộc gọi nhị phân (0 hoặc 1) s
+P193 [Normal] [HAS IMAGE]: 
+P194 [Normal]: 3. Nhận diện trạng thái quá tải vô tuyến (Congestion Status): Phân loại một phiên đo kiểm rơi vào tì
+P195 [Normal] [HAS IMAGE]: 
+P196 [Normal]: 4. Điểm chất lượng dịch vụ tổng hợp (QoS Score - Thang điểm 100): Đánh giá chất lượng dịch vụ tổng t
+P197 [Normal] [HAS IMAGE]: 
+P203 [Normal]: CHƯƠNG 3. XÂY DỰNG HỆ THỐNG XỬ LÝ DỮ LIỆU LỚN
+P204 [Normal]: 3.1. Thiết lập môi trường triển khai thực nghiệm
+P208 [Normal]: 3.2. Tổ chức lưu trữ phân tán và cơ chế dung lỗi trên HDFS
+P223 [Normal]: 3.3. Thiết kế pipeline luồng dữ liệu đầu cuối (End-to-End)
+P225 [Normal] [HAS IMAGE]: 
+P226 [Normal]: Hình 3.1: Pipeline luồng dữ liệu đầu cuối từ Ingestion đến Analytics
+P232 [Normal]: 3.4. Cài đặt pipeline phân tích bằng Apache Spark & Spark SQL
+P234 [Normal]: 3.5. Các thành phần và thuật toán chuyên biệt trong đề tài
+P235 [Normal]: 3.5.1. Thuật toán MapReduce tối ưu tính KPI viễn thông
+P237 [Normal] [HAS IMAGE]: 
+P238 [Normal]: Hình 3.2: Sơ đồ luồng thuật toán MapReduce với Composite Key và Custom Partitioner
+P239 [List Bullet]: 1. Khóa phức hợp (Composite Key - TowerTechKey): Thay vì chỉ sử dụng một khóa đơn giản, lớp TowerTec
+P240 [List Bullet]: 2. Bộ phân vùng tùy biến (Custom TowerPartitioner): Trong mạng viễn thông, một trạm BTS luôn phát só
+P241 [List Bullet]: 3. Bộ gộp cục bộ (Combiner): Chạy trực tiếp trên từng DataNode ngay sau pha Map, thực hiện cộng dồn 
+P242 [Normal]: 3.5.2. Kịch bản ETL và phân cụm trạm lỗi với Apache Pig Latin
+P244 [Normal]: 3.5.3. Thiết kế bảng Apache HBase phục vụ truy cập ngẫu nhiên
+P246 [Normal]: Bảng 3.1: Thiết kế bảng Apache HBase lưu trữ chỉ số KPI viễn thông độ trễ thấp
+P247 [Normal] [HAS IMAGE]: 
+P248 [Normal]: 3.5.4. Mô phỏng phân tích nghiệp vụ tương tác với BigSheets
+P250 [Normal] [HAS IMAGE]: 
+P251 [Normal]: Hình 3.3: Giao diện mô phỏng Dashboard phân tích nghiệp vụ BigSheets
+P254 [Normal] [HAS IMAGE]: 
+P255 [Normal]: Hình 3.3: Quy trình nghiệp vụ mô phỏng ánh xạ chính xác
+P256 [Normal]: 3.5.5. Mô hình Hồi quy Logistic dự báo khiếu nại bằng R & SQLite
+P262 [Normal] [HAS IMAGE]: 
+P264 [Normal] [HAS IMAGE]: 
+P266 [Normal] [HAS IMAGE]: 
+P267 [Normal] [HAS IMAGE]: 
+P268 [Normal]: 3.6. Cơ chế lưu trữ và xuất kết quả đa tầng
+P275 [Normal]: CHƯƠNG 4. THỰC NGHIỆM VÀ ĐÁNH GIÁ KẾT QUẢ
+P276 [Normal]: 4.1. Kịch bản và dữ liệu thực nghiệm
+P279 [Normal]: 4.2. Kết quả phân tích chất lượng mạng viễn thông
+P281 [Normal]: Bảng 4.1: Bảng tổng hợp KPI Top 10 trạm phát sóng suy giảm chất lượng nghiêm trọng
+P283 [Normal]: Bảng 4.1 đã cô lập chính xác 3 trạm phát sóng bị suy thoái chất lượng nghiêm trọng nhất toàn mạng: T
+P285 [Normal] [HAS IMAGE]: 
+P286 [Normal]: Hình 4.1: Biểu đồ hộp phân bố độ trễ theo thế hệ công nghệ mạng (3G, 4G, 5G)
+P289 [Normal] [HAS IMAGE]: 
+P290 [Normal]: Hình 4.2: Biểu đồ tương quan giữa Tỷ lệ mất gói (%) và Tỷ lệ rớt cuộc gọi (%)
+P293 [Normal] [HAS IMAGE]: 
+P294 [Normal]: Hình 4.3: Biểu đồ tỷ lệ rớt cuộc gọi theo Tỉnh thành và Công nghệ mạng
+P297 [Normal] [HAS IMAGE]: 
+P298 [Normal]: Hình 4.4: Biểu đồ bong bóng đa chiều tương quan Độ trễ và Mất gói theo Trạm BTS
+P302 [Normal] [HAS IMAGE]: 
+P303 [Normal]: Hình 4.5: Biểu đồ xếp hạng cảnh báo Top 10 trạm BTS chất lượng kém nhất cần bảo trì
+P306 [Normal] [HAS IMAGE]: 
+P307 [Normal]: Hình 4.6: Ảnh chụp màn hình môi trường thực thi và phân tích mô hình học máy trên RStudio
+P310 [Normal]: 4.3. Đánh giá hiệu năng và so sánh công nghệ
+P312 [Normal]: Bảng 4.2: Bảng đối chiếu định lượng hiệu năng và tài nguyên giữa Pig, MapReduce, Spark và R
+P315 [Normal]: 4.4. Thảo luận kết quả và 5 Khuyến nghị hành động tối ưu mạng NOC
+P317 [Normal]: Bảng 4.3: Ma trận 5 khuyến nghị hành động kỹ thuật tối ưu hóa mạng viễn thông
+P321 [Normal]: CHƯƠNG 5. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+P322 [Normal]: 5.1. Kết luận các kết quả đạt được
+P329 [Normal]: 5.2. Hạn chế của đề tài
+P334 [Normal]: 5.3. Hướng nghiên cứu và phát triển tiếp theo
